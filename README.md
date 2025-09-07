@@ -34,3 +34,19 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Add this project to GitHub
+
+1. Create an empty repository on GitHub (no README/license/gitignore). Copy the repo URL, e.g. `https://github.com/<your-username>/<repo>.git`.
+2. Ensure Git is initialized locally and all files are committed:
+   - git init
+   - git add .
+   - git commit -m "Initial commit"
+3. Point your local repo to GitHub and push:
+   - git branch -M main
+   - git remote add origin https://github.com/<your-username>/<repo>.git
+   - git push -u origin main
+
+Notes:
+- Secrets like EMAIL_USER/EMAIL_PASS should be stored in a local .env file (already gitignored) and added as repository or deployment secrets (e.g., Vercel Project Environment Variables) rather than committed.
+- The .idea and .vscode folders are ignored by default to avoid committing IDE settings.
