@@ -17,6 +17,7 @@ A modern, responsive website for New Image Dental built with Next.js (App Router
 - Framer Motion (for animations)
 - React Icons
 - Nodemailer (server-side email)
+- DaisyUI
 - TypeScript
 
 ## Prerequisites
