@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { FiPhone } from 'react-icons/fi'
 import { IoPhonePortraitOutline } from 'react-icons/io5'
-import BookingButton from '@/components/UI/BookingButton'
 import Hero from '@/components/Hero'
 
 export default function Booking() {

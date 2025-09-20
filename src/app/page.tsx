@@ -1,7 +1,6 @@
 'use client'
 
 import Image from 'next/image'
-import Logo from '@/components/UI/Logo'
 import Link from 'next/link'
 
 import { LiaToothSolid } from 'react-icons/lia'
@@ -86,7 +85,7 @@ export default function Home() {
           <p className="text-sm text-gray-700 sm:text-base md:text-sm lg:text-lg">
             At <span className="text-nid-blue font-bold">New Image Dental</span>, scheduling Dental
             Treatment has become simpler than ever. Our personalized Dental Treatment provides
-            patients with the resources they need to get their dental health on track — you'll leave
+            patients with the resources they need to get their dental health on track. You'll leave
             our clinic well informed and confident that your health is in good hands. Get in touch
             and schedule an appointment today!
           </p>

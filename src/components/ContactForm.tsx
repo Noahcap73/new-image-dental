@@ -1,8 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react'
-import Logo from '@/components/UI/Logo'
 import { CgSpinner } from 'react-icons/cg'
-import Hero from '@/components/Hero'
 
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', companyName: '', email: '', phone: '', message: '' })

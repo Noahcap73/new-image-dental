@@ -1,4 +1,3 @@
-import Logo from '@/components/UI/Logo'
 import Image from 'next/image'
 import BookingButton from '@/components/UI/BookingButton'
 
