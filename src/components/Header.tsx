@@ -12,21 +12,31 @@ export default function Header() {
     <div className="w-full">
       <div className="bg-nid-blue flex flex-col items-center gap-3 px-4 py-4 text-white md:flex-row md:justify-between">
         {/* Address */}
-        <div className="flex items-center">
+        <a
+          href="https://www.google.com/maps/place/New+Image+Dental/@36.119334,-115.2111789,17z/data=!3m1!4b1!4m6!3m5!1s0x80c8c733388712ad:0x149c2faa42e5dee!8m2!3d36.119334!4d-115.208604!16s%2Fg%2F11fnypdt8w?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D"
+          target="_blank"
+          className="hover:text-nid-gold-200 flex items-center transition ease-in-out"
+        >
           <IoLocationOutline className="mr-1 text-lg md:text-2xl" />
           <p className="text-center text-xs md:text-left md:text-sm">
             3885 S Decatur Blvd #1100, Las Vegas, NV 89103
           </p>
-        </div>
+        </a>
 
         {/* Contact + Socials */}
         <div className="flex flex-wrap items-center justify-center gap-4">
           {/* Phone numbers */}
-          <a href="tel:702-838-3311" className="hover:text-nid-gold-200 flex items-center gap-1">
+          <a
+            href="tel:702-838-3311"
+            className="hover:text-nid-gold-200 flex items-center gap-1 transition ease-in-out"
+          >
             <FiPhone className="text-xl" />
             <p className="text-xs md:text-sm">702-838-3311</p>
           </a>
-          <a href="tel:702-762-1855" className="hover:text-nid-gold-200 flex items-center gap-1">
+          <a
+            href="tel:702-762-1855"
+            className="hover:text-nid-gold-200 flex items-center gap-1 transition ease-in-out"
+          >
             <IoPhonePortraitOutline className="text-xl" />
             <p className="text-xs md:text-sm">702-762-1855</p>
           </a>
@@ -34,20 +44,20 @@ export default function Header() {
           {/* Socials */}
           <div className="flex gap-3">
             <a href="https://www.yelp.com/biz/new-image-dental-las-vegas" target="_blank">
-              <FaYelp className="hover:text-nid-gold-200 text-xl" />
+              <FaYelp className="hover:text-nid-gold-200 text-xl transition ease-in-out" />
             </a>
             <a href="https://www.instagram.com/newimagedentalnv/" target="_blank">
-              <FaInstagram className="hover:text-nid-gold-200 text-xl" />
+              <FaInstagram className="hover:text-nid-gold-200 text-xl transition ease-in-out" />
             </a>
             <a href="https://www.facebook.com/NewImageDentalNV2025" target="_blank">
-              <FaFacebook className="hover:text-nid-gold-200 text-xl" />
+              <FaFacebook className="hover:text-nid-gold-200 text-xl transition ease-in-out" />
             </a>
           </div>
         </div>
       </div>
       <div className="flex h-auto w-full items-center bg-white px-6 py-2">
         <div className="mr-auto">
-          <Link href="/" className="transition hover:invert">
+          <Link href="/" className="transition duration-300 ease-in-out hover:invert">
             <div className="flex items-center">
               <Logo />
               <h1 className="text-nid-blue hidden text-2xl font-bold md:block">New Image Dental</h1>

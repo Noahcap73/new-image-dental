@@ -1,30 +1,17 @@
 import BookingButton from '@/components/UI/BookingButton'
 import Link from 'next/link'
 import Image from 'next/image'
+import Hero from '@/components/Hero'
 
 export default function About() {
   return (
     <div className="bg-white text-gray-800">
       {/* Hero Section */}
-      <section className="bg-nid-blue relative overflow-hidden px-6 py-16 text-center text-white">
-        {/* Background logo */}
-        <Image
-          src="/Logo-Small.png"
-          alt="New Image Dental Logo"
-          className="absolute inset-0 mx-auto my-auto opacity-20"
-          width={195}
-          height={195}
+      <section>
+        <Hero
+          title="Meet the Dentsists Behind New Image Dental"
+          subtitle="Rooted in Care, Smiles You Can Share"
         />
-
-        {/* Hero content */}
-        <div className="relative z-10">
-          <h1 className="mb-4 text-4xl font-bold md:text-5xl">
-            Meet the Dentists Behind New Image Dental
-          </h1>
-          <p className="mx-auto max-w-2xl text-lg md:text-xl">
-            Rooted in Care, Smiles You Can Share
-          </p>
-        </div>
       </section>
 
       {/* Practice Story */}
@@ -69,7 +56,7 @@ export default function About() {
           {/* Doctor 2 */}
           <div className="shadow-nid-blue/50 flex flex-col items-center rounded-2xl border-2 border-gray-300 bg-white p-8 text-center transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
             <Image src="/media/Dr-Samiano.png" alt="" width={280} height={280} />
-            <h3 className="mb-2 text-2xl font-semibold">Dr. Beanca Jhanine M Samiano</h3>
+            <h3 className="mt-1 mb-2 text-2xl font-semibold">Dr. Beanca Jhanine M Samiano</h3>
             <p className="text-nid-blue mb-4 font-medium">General Dentist</p>
             <p className="mb-3 leading-relaxed text-gray-600">
               Originally from the Philippines, Dr. Beanca moved to the U.S at 19 and it was here in
@@ -108,7 +95,7 @@ export default function About() {
           Ready to schedule your first visit? We look forward to welcoming you.
         </p>
         <Link href="/booking">
-          <button className="hover:shadow-nid-dark hover:bg-nid-gold-200 text-nid-blue h-10 w-45 rounded-xl bg-white py-2 text-center text-sm font-[500] transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer hover:text-white">
+          <button className="hover:shadow-nid-dark hover:bg-nid-gold-200 text-nid-blue mb-4 h-10 w-45 rounded-xl bg-white py-2 text-center text-sm font-[500] transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer hover:text-white">
             Book an Appointment
           </button>
         </Link>

@@ -3,10 +3,11 @@ import { Lora } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
+import AosWrapper from '@/components/AosWrapper'
 
 const lora = Lora({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'], // pick weights you need
+  weight: ['400', '500', '600', '700'],
 })
 
 export const metadata: Metadata = {
@@ -21,13 +22,15 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className={lora.className}>
-        <div className="sticky top-0 z-50">
-          <Header />
-        </div>
-        <div className="mt-0">{children}</div>
-        <Footer />
+    <html lang="en" className="scroll-smooth">
+      <body className={`${lora.className} overflow-x-hidden`}>
+        <AosWrapper>
+          <div className="sticky top-0 z-50">
+            <Header />
+          </div>
+          <div className="mt-0">{children}</div>
+          <Footer />
+        </AosWrapper>
       </body>
     </html>
   )

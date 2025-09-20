@@ -30,7 +30,7 @@ export default function Navbar() {
           Contact Us
         </Link>
         <Link href="/booking">
-          <button className="bg-nid-gold-200 hover:bg-nid-blue h-8 w-32 rounded-xl font-semibold text-white transition hover:-translate-y-1">
+          <button className="bg-nid-gold-200 hover:bg-nid-blue hover:shadow-nid-dark h-8 w-32 rounded-xl font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-1">
             Book Now
           </button>
         </Link>
@@ -46,7 +46,7 @@ export default function Navbar() {
 
         <button
           onClick={() => setIsOpen(true)}
-          className="text-nid-blue text-3xl focus:outline-none"
+          className="text-nid-blue hover:text-nid-gold-200 text-3xl transition duration-300 ease-in-out hover:cursor-pointer"
         >
           <HiMenu />
         </button>
@@ -68,7 +68,7 @@ export default function Navbar() {
 
             {/* Slide-in Menu */}
             <motion.div
-              className="fixed top-0 right-0 z-50 flex h-[43vh] w-64 flex-col rounded-bl-2xl bg-white p-6 shadow-lg md:hidden"
+              className="fixed top-0 right-0 z-50 flex h-[60vh] w-64 flex-col rounded-bl-2xl bg-white p-6 shadow-lg md:hidden"
               initial={{ x: '100%' }}
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
@@ -120,6 +120,16 @@ export default function Navbar() {
                   className="hover:text-nid-gold-200 mb-3 w-[10rem] rounded-xl border px-8 py-2 text-center font-[500] transition duration-300 ease-in-out"
                 >
                   Contact Us
+                </Link>
+              </div>
+
+              <div className="flex justify-center">
+                <Link
+                  href="/booking"
+                  onClick={() => setIsOpen(false)}
+                  className="hover:text-nid-blue bg-nid-gold-200 mb-3 w-[10rem] rounded-xl border px-8 py-2 text-center font-[500] text-white transition duration-300 ease-in-out"
+                >
+                  Book Now
                 </Link>
               </div>
             </motion.div>
