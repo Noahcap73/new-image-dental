@@ -84,9 +84,9 @@ export default function Home() {
           <p className="text-sm text-gray-700 sm:text-base md:text-sm lg:text-lg">
             At <span className="text-nid-blue font-bold">New Image Dental</span>, scheduling Dental
             Treatment has become simpler than ever. Our personalized Dental Treatment provides
-            patients with the resources they need to get their dental health on track. You'll leave
-            our clinic well informed and confident that your health is in good hands. Get in touch
-            and schedule an appointment today!
+            patients with the resources they need to get their dental health on track. You&#39;ll
+            leave our clinic well informed and confident that your health is in good hands. Get in
+            touch and schedule an appointment today!
           </p>
           <div className="mt-6 flex justify-center md:justify-start">
             <BookingButton />

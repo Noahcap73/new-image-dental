@@ -61,9 +61,10 @@ export default function About() {
               exciting adventure.
             </p>
             <p className="mb-3 leading-relaxed text-gray-600">
-              Dr. Beanca's patients adore her sense of humor which keeps the atmosphere light and
-              cheerful in the office. Her animated and candid personality adds a touch of warmth and
-              comfort to every visit, making it a delightful experience for kids and parents alike.
+              Dr. Beanca&#39;s patients adore her sense of humor which keeps the atmosphere light
+              and cheerful in the office. Her animated and candid personality adds a touch of warmth
+              and comfort to every visit, making it a delightful experience for kids and parents
+              alike.
             </p>
             <p className="mb-3 leading-relaxed text-gray-600">
               Beyond her work Dr. Beanca treasures moments with husband, two kids and her furry four
