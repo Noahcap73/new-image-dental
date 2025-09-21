@@ -102,7 +102,7 @@ export default function Home() {
           <div className="bg-nid-blue/90 absolute top-4 left-4 h-[18rem] w-[16rem] rounded-tr-3xl rounded-bl-3xl sm:h-[22rem] sm:w-[20rem] md:h-[25rem] md:w-[22rem]" />
           <div className="relative h-[18rem] w-[16rem] sm:h-[22rem] sm:w-[20rem] md:h-[25rem] md:w-[22rem]">
             <Image
-              src="/Media/salha-frija-dsQoLK2N7DQ-unsplash.jpg"
+              src="/media/salha-frija-dsQoLK2N7DQ-unsplash.jpg"
               alt="smile"
               fill
               className="rounded-tr-3xl rounded-bl-3xl object-cover"
