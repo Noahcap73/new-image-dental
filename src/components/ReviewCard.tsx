@@ -3,14 +3,12 @@ import { IoPersonCircleOutline } from 'react-icons/io5'
 
 interface ReviewCardProps {
   name: string
-  avatar: string
-  role?: string // e.g. "Local Guide · 23 reviews"
   rating: number
   review: string
-  date: string // e.g. "Jan 2025"
+  date: string
 }
 
-const ReviewCard: React.FC<ReviewCardProps> = ({ name, role, rating, review, date }) => {
+const ReviewCard: React.FC<ReviewCardProps> = ({ name, rating, review, date }) => {
   return (
     <div data-aos="fade-right">
       <div className="hover:shadow-nid-blue/50 group h-[18rem] rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg md:h-[25rem] lg:h-[18rem]">
@@ -19,7 +17,6 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ name, role, rating, review, dat
           <IoPersonCircleOutline className="text-nid-blue text-4xl" />
           <div>
             <p className="font-semibold">{name}</p>
-            {role && <p className="text-sm text-gray-500">{role}</p>}
           </div>
         </div>
 

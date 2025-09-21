@@ -22,7 +22,6 @@ export default function Home() {
   const reviews = [
     {
       name: 'Gustavo R',
-      role: '',
       rating: 5,
       review:
         'Dr. Samiano is an exceptional dentist!\n' +

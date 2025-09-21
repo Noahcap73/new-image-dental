@@ -7,10 +7,7 @@ export default function About() {
     <div className="bg-white text-gray-800">
       {/* Hero Section */}
       <section>
-        <Hero
-          title="Meet the Dentsists Behind New Image Dental"
-          subtitle="Rooted in Care, Smiles You Can Share"
-        />
+        <Hero title="Meet the Dentsists Behind New Image Dental" />
       </section>
 
       {/* Practice Story */}
