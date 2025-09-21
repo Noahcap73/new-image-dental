@@ -4,12 +4,12 @@ import BookingButton from '@/components/UI/BookingButton'
 export default function BookingBar() {
   return (
     <div className="w-full bg-gray-300 py-7">
-      <div className="flex items-center justify-center gap-20">
+      <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:gap-20">
         <div className="flex items-center px-3">
           <Image
             src="/Logo-Small.png"
             alt="New Image Dental Logo"
-            className="w-[8rem] md:max-w-[60px]"
+            className="w-[6rem] md:max-w-[60px]"
             width={60}
             height={60}
           />

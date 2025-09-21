@@ -45,7 +45,7 @@ export default function Services() {
     {
       image: '/media/tools.jpg',
       service: 'Endodontics',
-      info: 'Root Canal Treatment, Indirect/Direct Pulp Cap',
+      info: 'Root Canals, Indirect/Direct Pulp Cap',
       details: [
         'Root Canal Treatment: A procedure to save a tooth with infected or damaged pulp. We gently remove the infected tissue inside the tooth, clean and disinfect the canals, then seal them to prevent future issues.',
         'Indirect/Direct Pulp Cap: A treatment to protect the tooth pulp when it’s close to exposure due to decay. We place a protective material over the pulp to encourage healing and avoid the need for a root canal.',

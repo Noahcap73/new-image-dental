@@ -207,7 +207,7 @@ export default function Home() {
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="base:max-w-[30rem] w-[15rem] rounded-3xl md:w-[25rem] md:max-w-none lg:w-[600]"
+                className="base:max-w-[30rem] w-[18rem] rounded-3xl md:w-[25rem] md:max-w-none lg:w-[600]"
               ></iframe>
             </div>
             <div className="md:w-[15rem]">
@@ -258,7 +258,7 @@ export default function Home() {
       {/*REVIEWS SECTION*/}
       <section className="py-4">
         <div className="flex justify-center">
-          <h2 className="text-nid-blue text-center text-xl font-[500]">
+          <h2 className="text-nid-blue w-[15rem] text-center text-xl font-[500] sm:w-full">
             What Some of Our Customers Have to Say
           </h2>
         </div>

@@ -29,7 +29,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
           {info && <p className="mt-2 text-gray-600">{info}</p>}
         </div>
 
-        <div className="translate-y-20 px-4 pb-4 transition duration-300 ease-in-out group-hover:translate-y-0">
+        <div className="px-4 pb-4 transition duration-300 ease-in-out group-hover:translate-y-0 lg:translate-y-20">
           {/* Button to open modal */}
           <label
             htmlFor={modalId}
