@@ -26,7 +26,7 @@ export default function Home() {
       review:
         'Dr. Samiano is an exceptional dentist!\n' +
         '\n' +
-        'I had an amazing experience with Dr. Samiano and her team. From the moment I walked into the office, I felt welcomed and at ease. She is incredibly knowledgeable ...',
+        'I had an amazing experience with Dr. Samiano and her team. From the moment I walked into the office, I felt welcomed and at ease ...',
       date: 'Jul 2025',
     },
     {
@@ -119,7 +119,7 @@ export default function Home() {
         <div className="grid-rows grid place-items-center gap-6 py-10 lg:grid-cols-2 xl:mx-44 2xl:mx-40">
           {/*Caring Card*/}
           <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <div className="shadow-nid-blue/50 h-[14rem] w-[20rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem]">
                 <MdOutlineFamilyRestroom />
               </p>
@@ -139,7 +139,7 @@ export default function Home() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div className="shadow-nid-blue/50 h-[14rem] w-[20rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem]">
                 <AiOutlineSmile />
               </p>
@@ -155,7 +155,7 @@ export default function Home() {
 
           {/*Teeth Card*/}
           <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <div className="shadow-nid-blue/50 h-[14rem] w-[20rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem]">
                 <LiaToothSolid />
               </p>
@@ -175,7 +175,7 @@ export default function Home() {
             data-aos-duration="1000"
             data-aos-delay="400"
           >
-            <div className="shadow-nid-blue/50 h-[14rem] w-[20rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[12.5rem] lg:w-[25rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem]">
                 <RiPokerHeartsLine />
               </p>
@@ -207,14 +207,14 @@ export default function Home() {
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="base:max-w-[30rem] rounded-3xl md:w-[25rem] md:max-w-none lg:w-[600]"
+                className="base:max-w-[30rem] w-[15rem] rounded-3xl md:w-[25rem] md:max-w-none lg:w-[600]"
               ></iframe>
             </div>
             <div className="md:w-[15rem]">
               <div className="flex justify-center pb-6">
                 <h2 className="text-3xl font-bold text-white">Office Hours</h2>
               </div>
-              <div className="text-xl">
+              <div className="sm:text-xl">
                 <p className="mb-2 flex justify-between text-white" data-aos="zoom-out">
                   <span>Monday:</span> <span>Closed</span>
                 </p>
@@ -258,7 +258,7 @@ export default function Home() {
       {/*REVIEWS SECTION*/}
       <section className="py-4">
         <div className="flex justify-center">
-          <h2 className="text-nid-blue text-xl font-[500]">
+          <h2 className="text-nid-blue text-center text-xl font-[500]">
             What Some of Our Customers Have to Say
           </h2>
         </div>

@@ -11,7 +11,7 @@ interface ReviewCardProps {
 const ReviewCard: React.FC<ReviewCardProps> = ({ name, rating, review, date }) => {
   return (
     <div data-aos="fade-right">
-      <div className="hover:shadow-nid-blue/50 group h-[18rem] rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg md:h-[25rem] lg:h-[18rem]">
+      <div className="hover:shadow-nid-blue/50 group h-[19rem] rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg md:h-[25rem] lg:h-[18rem]">
         {/* Header */}
         <div className="flex items-center gap-3">
           <IoPersonCircleOutline className="text-nid-blue text-4xl" />

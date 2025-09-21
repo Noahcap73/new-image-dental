@@ -11,7 +11,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
   const modalId = `${service.replace(/\s+/g, '_').toLowerCase()}_modal`
   return (
     <>
-      <div className="group hover:shadow-nid-blue/50 my-10 w-[22rem] overflow-hidden rounded-xl shadow-lg transition duration-300 ease-in-out hover:-translate-y-2">
+      <div className="group hover:shadow-nid-blue/50 my-10 w-[18rem] overflow-hidden rounded-xl shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 sm:w-[22rem]">
         {/* Image Section */}
         <div className="h-48 w-full overflow-hidden">
           <Image
