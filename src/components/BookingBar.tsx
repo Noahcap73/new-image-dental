@@ -16,7 +16,7 @@ export default function BookingBar() {
           <h1 className="text-nid-blue hidden text-4xl font-bold md:block">New Image Dental</h1>
         </div>
         <div className="w-auto">
-          <h3 className="text-nid-blue mb-6 text-xl font-bold">
+          <h3 className="text-nid-blue mb-6 text-center text-xl font-bold md:text-left">
             Schedule an Appointment With Us Today!
           </h3>
           <div className="flex justify-center">
