@@ -53,8 +53,8 @@ export default function Services() {
     },
     {
       image: '/media/toothbrush.jpg',
-      service: 'Periodontics',
-      info: 'Basic Cleaning, Scaling, Root Planning',
+      service: 'Preventive & Periodontics',
+      info: 'Dental Sealants, Basic Cleaning/Prophy, Scaling and Root Planning, Occlusal Guard',
       details: [
         'Basic Cleaning: Routine cleaning that removes plaque and tartar from above the gumline, helping keep your teeth and gums healthy.',
         'Scaling: A deeper cleaning that targets buildup below the gumline. We use special instruments to carefully remove hardened deposits that regular brushing can’t reach.',
@@ -66,7 +66,7 @@ export default function Services() {
       service: 'Oral Surgery',
       info: 'Extractions, Implants, Bone and Soft Tissue Grafts',
       details: [
-        'Extractions: Removal of teeth that are damaged, decayed, or causing crowding. We ensure the process is gentle and comfortable, with options for numbing or sedation.',
+        'Extractions: Removal of teeth that are damaged, decayed, or causing crowding. We ensure the process is gentle and comfortable, with options for local anesthetics.',
         'Implants: A long-term solution for missing teeth. A small titanium post is placed into the jawbone, and once healed, it supports a crown that looks and feels like a natural tooth.',
         'Bone and Soft Tissue Grafts: Procedures to rebuild bone or gum tissue lost to disease or injury. These treatments create a stronger foundation for implants or improve overall oral health.',
       ],

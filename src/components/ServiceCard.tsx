@@ -55,7 +55,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
           </h3>
           <ul className="list-disc py-4 pl-6 text-gray-600">
             {details.map((item, i) => (
-              <li className="pb-5 text-sm" key={i}>
+              <li className="pb-5 text-sm md:text-lg" key={i}>
                 {item}
               </li>
             ))}

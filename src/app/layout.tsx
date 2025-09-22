@@ -24,13 +24,18 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${lora.className} overflow-x-hidden`}>
-        <AosWrapper>
-          <div className="sticky top-0 z-50">
-            <Header />
-          </div>
-          <div className="mt-0">{children}</div>
-          <Footer />
-        </AosWrapper>
+        {/* Sticky wrapper outside of AosWrapper */}
+        <div className="sticky top-0 z-50 bg-white">
+          <Header />
+        </div>
+
+        {/* Content must scroll on body, not inside AosWrapper */}
+        <main className="min-h-screen">
+          <AosWrapper>
+            {children}
+            <Footer />
+          </AosWrapper>
+        </main>
       </body>
     </html>
   )

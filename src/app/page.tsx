@@ -162,9 +162,7 @@ export default function Home() {
               <h2 className="text-nid-gold-200 text-center text-lg font-bold">
                 Strong & Healthy Teeth
               </h2>
-              <p className="text-gray-700">
-                Fillings, crowns, and restorations that keep your teeth strong
-              </p>
+              <p className="text-gray-700">Fillings and crowns that keep your teeth strong</p>
             </div>
           </div>
 
