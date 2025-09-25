@@ -212,7 +212,7 @@ export default function Home() {
               <div className="flex justify-center pb-6">
                 <h2 className="text-3xl font-bold text-white">Office Hours</h2>
               </div>
-              <div className="sm:text-xl">
+              <div className="text-xl">
                 <p className="mb-2 flex justify-between text-white" data-aos="zoom-out">
                   <span>Monday:</span> <span>Closed</span>
                 </p>
