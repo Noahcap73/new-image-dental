@@ -57,8 +57,8 @@ export default function Services() {
       info: 'Dental Sealants, Basic Cleaning/Prophy, Scaling and Root Planning, Occlusal Guard',
       details: [
         'Basic Cleaning: Routine cleaning that removes plaque and tartar from above the gumline, helping keep your teeth and gums healthy.',
-        'Scaling: A deeper cleaning that targets buildup below the gumline. We use special instruments to carefully remove hardened deposits that regular brushing can’t reach.',
-        'Root Planing: A treatment that smooths the roots of your teeth, helping gums reattach and heal after buildup has been removed.',
+        'Scaling & Root Planing: A deep-cleaning treatment that targets hardened deposits below the gumline. We carefully remove buildup that brushing can’t reach, then smooth the roots of your teeth to help your gums heal and reattach.',
+        'Occlusal Guard: A custom-made appliance that protects your teeth from grinding or clenching (bruxism). It helps reduce jaw strain, prevent enamel wear, and protect dental work while you sleep',
       ],
     },
     {
