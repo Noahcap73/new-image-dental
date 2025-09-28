@@ -10,27 +10,27 @@ export default function Navbar() {
   return (
     <nav className="text-nid-blue relative">
       {/* Desktop Nav */}
-      <div className="text-md hidden items-center gap-6 md:flex">
+      <div className="text-md hidden items-center gap-6 md:flex lg:text-xl">
         <Link
           href="/about"
-          className="hover:text-nid-gold-200 font-[500] transition hover:underline"
+          className="hover:text-nid-gold-200 font-[500] transition duration-300 ease-in-out hover:underline"
         >
           About
         </Link>
         <Link
           href="/services"
-          className="hover:text-nid-gold-200 font-[500] transition hover:underline"
+          className="hover:text-nid-gold-200 font-[500] transition duration-300 ease-in-out hover:underline"
         >
           Services
         </Link>
         <Link
           href="/contact"
-          className="hover:text-nid-gold-200 font-[500] transition hover:underline"
+          className="hover:text-nid-gold-200 font-[500] transition duration-300 ease-in-out hover:underline"
         >
           Contact Us
         </Link>
         <Link href="/booking">
-          <button className="bg-nid-gold-200 hover:bg-nid-blue hover:shadow-nid-dark h-8 w-32 rounded-xl font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-1">
+          <button className="bg-nid-gold-200 hover:bg-nid-blue hover:shadow-nid-dark h-10 w-32 rounded-xl font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-1">
             Book Now
           </button>
         </Link>

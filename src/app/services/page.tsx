@@ -56,9 +56,10 @@ export default function Services() {
       service: 'Preventive & Periodontics',
       info: 'Dental Sealants, Basic Cleaning/Prophy, Scaling and Root Planning, Occlusal Guard',
       details: [
+        'Dental Sealants: A protective coating applied to the chewing surfaces of back teeth. Sealants block out bacteria and food particles, helping prevent cavities in areas that are harder to clean with regular brushing.',
         'Basic Cleaning: Routine cleaning that removes plaque and tartar from above the gumline, helping keep your teeth and gums healthy.',
         'Scaling & Root Planing: A deep-cleaning treatment that targets hardened deposits below the gumline. We carefully remove buildup that brushing can’t reach, then smooth the roots of your teeth to help your gums heal and reattach.',
-        'Occlusal Guard: A custom-made appliance that protects your teeth from grinding or clenching (bruxism). It helps reduce jaw strain, prevent enamel wear, and protect dental work while you sleep',
+        'Occlusal Guard: A custom-made appliance that protects your teeth from grinding or clenching (bruxism). It helps reduce jaw strain, prevent enamel wear, and protect dental work while you sleep.',
       ],
     },
     {

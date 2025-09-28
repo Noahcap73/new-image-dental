@@ -22,7 +22,7 @@ export default function Hero({ title }: heroProps) {
       {/* Hero content */}
       <div className="relative z-10">
         <h1 className="mb-4 text-4xl font-bold md:text-5xl">{title}</h1>
-        <p className="mx-auto max-w-2xl text-lg md:text-xl">
+        <p className="mx-auto max-w-2xl text-lg md:text-xl lg:text-2xl">
           Rooted in <span className="text-nid-gold-200">Care</span>, Smiles You Can{' '}
           <span className="text-nid-gold-200">Share</span>
         </p>

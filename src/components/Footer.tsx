@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div className="w-full py-4">
       <div>
-        <p className="text-nid-blue text-center text-sm">
+        <p className="text-nid-blue text-center text-sm lg:text-lg">
           ©2025 by New Image Dental |{' '}
           <a
             href="mailto:newimagedental2025@gmail.com"

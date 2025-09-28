@@ -29,11 +29,11 @@ export default function RootLayout({
         </div>
 
         <main className="min-h-screen overflow-x-clip">
-          <AosWrapper>
-            {children}
-            <Footer />
-          </AosWrapper>
+          <AosWrapper>{children}</AosWrapper>
         </main>
+        <div className="bottom-0">
+          <Footer />
+        </div>
       </body>
     </html>
   )

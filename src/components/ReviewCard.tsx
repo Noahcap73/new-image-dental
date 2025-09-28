@@ -16,7 +16,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ name, rating, review, date }) =
         <div className="flex items-center gap-3">
           <IoPersonCircleOutline className="text-nid-blue text-4xl" />
           <div>
-            <p className="text-lg font-semibold text-black">{name}</p>
+            <p className="text-lg font-semibold text-black md:text-xl">{name}</p>
           </div>
         </div>
 
@@ -26,7 +26,7 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ name, rating, review, date }) =
         </div>
 
         {/* Review text */}
-        <p className="mt-3 text-gray-600">{review}</p>
+        <p className="mt-3 text-gray-600 lg:text-lg">{review}</p>
 
         {/* Footer */}
         <p className="mt-3 text-sm text-gray-400">Reviewed on Google · {date}</p>

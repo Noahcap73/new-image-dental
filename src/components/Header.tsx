@@ -18,7 +18,7 @@ export default function Header() {
           className="hover:text-nid-gold-200 flex items-center transition ease-in-out"
         >
           <IoLocationOutline className="mr-1 text-lg md:text-2xl" />
-          <p className="text-center text-xs md:text-left md:text-sm">
+          <p className="text-center text-xs md:text-left md:text-sm lg:text-lg">
             3885 S Decatur Blvd #1100, Las Vegas, NV 89103
           </p>
         </a>
@@ -31,26 +31,26 @@ export default function Header() {
             className="hover:text-nid-gold-200 flex items-center gap-1 transition ease-in-out"
           >
             <FiPhone className="text-xl" />
-            <p className="text-xs md:text-sm">702-838-3311</p>
+            <p className="text-xs md:text-sm lg:text-lg">702-838-3311</p>
           </a>
           <a
             href="tel:702-762-1855"
             className="hover:text-nid-gold-200 flex items-center gap-1 transition ease-in-out"
           >
             <IoPhonePortraitOutline className="text-xl" />
-            <p className="text-xs md:text-sm">702-762-1855</p>
+            <p className="text-xs md:text-sm lg:text-lg">702-762-1855</p>
           </a>
 
           {/* Socials */}
           <div className="flex gap-3">
             <a href="https://www.yelp.com/biz/new-image-dental-las-vegas" target="_blank">
-              <FaYelp className="hover:text-nid-gold-200 text-xl transition ease-in-out" />
+              <FaYelp className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-3xl" />
             </a>
             <a href="https://www.instagram.com/newimagedentalnv/" target="_blank">
-              <FaInstagram className="hover:text-nid-gold-200 text-xl transition ease-in-out" />
+              <FaInstagram className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-3xl" />
             </a>
             <a href="https://www.facebook.com/NewImageDentalNV2025" target="_blank">
-              <FaFacebook className="hover:text-nid-gold-200 text-xl transition ease-in-out" />
+              <FaFacebook className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-3xl" />
             </a>
           </div>
         </div>
@@ -60,7 +60,9 @@ export default function Header() {
           <Link href="/" className="transition duration-300 ease-in-out hover:invert">
             <div className="flex items-center">
               <Logo />
-              <h1 className="text-nid-blue hidden text-2xl font-bold md:block">New Image Dental</h1>
+              <h1 className="text-nid-blue hidden text-2xl font-bold md:block lg:text-3xl">
+                New Image Dental
+              </h1>
             </div>
           </Link>
         </div>
