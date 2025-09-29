@@ -33,7 +33,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
           {/* Button to open modal */}
           <label
             htmlFor={modalId}
-            className="bg-nid-gold-200 rounded-xl px-4 py-2 transition ease-in-out hover:cursor-pointer hover:underline"
+            className="bg-nid-gold-200 rounded-xl px-4 py-2 text-white transition ease-in-out hover:cursor-pointer hover:underline"
           >
             Learn More
           </label>
