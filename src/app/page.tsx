@@ -82,7 +82,7 @@ export default function Home() {
               priority
               className="w-12 sm:w-16 md:w-20 lg:w-24"
             />
-            <h1 className="text-nid-white 2xs:text-3xl xs:text-5xl font-bold text-shadow-lg md:text-5xl lg:text-7xl">
+            <h1 className="2xs:text-3xl xs:text-5xl font-bold text-white text-shadow-lg md:text-5xl lg:text-7xl">
               New Image Dental
             </h1>
           </div>
