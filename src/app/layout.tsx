@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   title: 'New Image Dental',
   description:
     'New Image Dental offers personalized family dental care. Schedule your appointment today for a healthy smile with our trusted and friendly team.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
