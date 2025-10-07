@@ -30,7 +30,7 @@ export default function Navbar() {
           Contact Us
         </Link>
         <Link href="/booking">
-          <button className="bg-nid-gold-200 hover:bg-nid-blue hover:shadow-nid-dark h-10 w-32 rounded-xl font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-1">
+          <button className="bg-nid-gold-200 hover:bg-nid-blue hover:shadow-nid-dark h-10 w-32 rounded-xl font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-1 hover:cursor-pointer">
             Book Now
           </button>
         </Link>
