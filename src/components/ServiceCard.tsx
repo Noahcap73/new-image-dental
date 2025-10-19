@@ -11,7 +11,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
   const modalId = `${service.replace(/\s+/g, '_').toLowerCase()}_modal`
   return (
     <>
-      <div className="group hover:shadow-nid-blue/50 my-10 w-[18rem] overflow-hidden rounded-xl shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 sm:w-[22rem]">
+      <div className="group hover:shadow-nid-blue/50 my-10 w-[18rem] overflow-hidden rounded-xl bg-white shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 sm:w-[22rem]">
         {/* Image Section */}
         <div className="h-48 w-full overflow-hidden">
           <Image
@@ -25,11 +25,11 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
 
         {/* Text Section */}
         <div className="p-4">
-          <h3 className="text-nid-blue text-xl font-semibold">{service}</h3>
-          {info && <p className="mt-2 text-gray-600">{info}</p>}
+          <h3 className="text-nid-blue text-xl font-semibold xl:text-2xl">{service}</h3>
+          {info && <p className="mt-2 text-gray-600 xl:text-lg">{info}</p>}
         </div>
 
-        <div className="px-4 pb-4 transition duration-300 ease-in-out group-hover:translate-y-0 lg:translate-y-20">
+        <div className="px-4 pb-4 transition duration-300 ease-in-out group-hover:translate-y-0 lg:translate-y-30">
           {/* Button to open modal */}
           <label
             htmlFor={modalId}

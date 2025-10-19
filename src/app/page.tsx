@@ -75,10 +75,10 @@ export default function Home() {
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center text-shadow-lg">
           <div className="flex items-center">
             <Image
-              src="/Logo-no-transparent.png"
+              src="/Logo-Gold.png"
               alt="logo"
-              width={100}
-              height={100}
+              width={300}
+              height={300}
               priority
               className="w-12 sm:w-16 md:w-20 lg:w-24"
             />
@@ -121,14 +121,14 @@ export default function Home() {
         <div className="grid-rows grid place-items-center gap-6 py-10 lg:grid-cols-2 xl:mx-44 2xl:mx-40">
           {/*Caring Card*/}
           <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem] 2xl:h-[18rem] 2xl:w-[30rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem] lg:text-[5rem]">
                 <MdOutlineFamilyRestroom />
               </p>
-              <h2 className="text-nid-gold-200 text-center text-lg font-bold lg:text-2xl">
+              <h2 className="text-nid-gold-200 pb-2 text-center text-lg font-bold lg:text-2xl 2xl:text-3xl">
                 Caring for Every Smile
               </h2>
-              <p className="text-gray-700 lg:text-lg">
+              <p className="text-gray-700 lg:text-lg 2xl:text-xl">
                 From kids to adults, we make dental care easy and comfortable for the whole family
               </p>
             </div>
@@ -141,14 +141,14 @@ export default function Home() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
           >
-            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem] 2xl:h-[18rem] 2xl:w-[30rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem] lg:text-[5rem]">
                 <AiOutlineSmile />
               </p>
-              <h2 className="text-nid-gold-200 text-center text-lg font-bold lg:text-2xl">
+              <h2 className="text-nid-gold-200 pb-2 text-center text-lg font-bold lg:text-2xl 2xl:text-3xl">
                 Brighter, Happier Smiles
               </h2>
-              <p className="text-gray-700 lg:text-lg">
+              <p className="text-gray-700 lg:text-lg 2xl:text-xl">
                 Gentle whitening, cleanings, and cosmetic treatments designed to bring out the
                 confidence in every smile
               </p>
@@ -157,14 +157,14 @@ export default function Home() {
 
           {/*Teeth Card*/}
           <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem] 2xl:h-[18rem] 2xl:w-[30rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem] lg:text-[5rem]">
                 <LiaToothSolid />
               </p>
-              <h2 className="text-nid-gold-200 text-center text-lg font-bold lg:text-2xl">
+              <h2 className="text-nid-gold-200 pb-2 text-center text-lg font-bold lg:text-2xl 2xl:text-3xl">
                 Strong & Healthy Teeth
               </h2>
-              <p className="text-gray-700 lg:text-lg">
+              <p className="text-gray-700 lg:text-lg 2xl:text-xl">
                 Fillings and crowns that keep your teeth strong
               </p>
             </div>
@@ -177,14 +177,14 @@ export default function Home() {
             data-aos-duration="1000"
             data-aos-delay="400"
           >
-            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem]">
+            <div className="shadow-nid-blue/50 h-[17rem] w-[16rem] flex-row items-center justify-center rounded-2xl border-2 border-gray-200 bg-gray-50 px-7 transition duration-300 hover:-translate-y-2 hover:shadow-lg sm:h-[14rem] sm:w-[20rem] md:w-[30rem] lg:h-[16rem] lg:w-[25rem] 2xl:h-[18rem] 2xl:w-[30rem]">
               <p className="text-nid-blue flex justify-center pt-4 pb-4 text-[3rem] lg:text-[5rem]">
                 <RiPokerHeartsLine />
               </p>
-              <h2 className="text-nid-gold-200 text-center text-lg font-bold lg:text-2xl">
+              <h2 className="text-nid-gold-200 pb-2 text-center text-lg font-bold lg:text-2xl 2xl:text-3xl">
                 Comfort You can Trust
               </h2>
-              <p className="text-gray-700 lg:text-lg">
+              <p className="text-gray-700 lg:text-lg 2xl:text-xl">
                 With a friendly team, we make each visit relaxing and stress-free for everyone
               </p>
             </div>
@@ -209,14 +209,14 @@ export default function Home() {
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="base:max-w-[30rem] w-[18rem] rounded-3xl md:w-[25rem] md:max-w-none lg:w-[600]"
+                className="base:max-w-[30rem] w-[18rem] rounded-3xl md:w-[25rem] md:max-w-none lg:w-[600] 2xl:h-[35rem] 2xl:w-[40rem]"
               ></iframe>
             </div>
-            <div className="md:w-[15rem] lg:w-[18rem]">
+            <div className="md:w-[15rem] lg:w-[18rem] 2xl:w-[22rem]">
               <div className="flex justify-center pb-6">
-                <h2 className="text-3xl font-bold text-white">Office Hours</h2>
+                <h2 className="text-3xl font-bold text-white 2xl:text-4xl">Office Hours</h2>
               </div>
-              <div className="text-xl xl:text-2xl">
+              <div className="text-xl xl:text-2xl 2xl:text-3xl">
                 <p className="mb-2 flex justify-between text-white" data-aos="zoom-out">
                   <span>Monday:</span> <span>Closed</span>
                 </p>
@@ -341,7 +341,7 @@ export default function Home() {
               alt=""
               width={300}
               height={300}
-              className="w-[15rem] lg:w-[17rem]"
+              className="w-[26rem] lg:w-[30rem]"
             />
           </div>
           <div className="ml-4">
@@ -377,7 +377,7 @@ export default function Home() {
             alt=""
             width={300}
             height={300}
-            className="w-[15rem] lg:w-[18rem]"
+            className="w-[26rem] lg:w-[30rem]"
           />
         </div>
 

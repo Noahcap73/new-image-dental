@@ -12,7 +12,7 @@ export default function Hero({ title }: heroProps) {
     >
       {/* Background logo */}
       <Image
-        src="/Logo-Small.png"
+        src="/Logo-Gold.png"
         alt="New Image Dental Logo"
         className="absolute inset-0 mx-auto my-auto opacity-20"
         width={195}

@@ -7,7 +7,7 @@ export default function BookingBar() {
       <div className="flex flex-col items-center justify-center gap-6 md:flex-row md:gap-20">
         <div className="flex items-center px-3">
           <Image
-            src="/Logo-Small.png"
+            src="/Logo-Gold.png"
             alt="New Image Dental Logo"
             className="w-[6rem] md:max-w-[60px]"
             width={60}
