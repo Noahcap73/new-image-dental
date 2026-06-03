@@ -19,7 +19,14 @@ export default function Footer() {
             href="/patient-rights"
             className="hover:text-nid-gold-200 underline transition duration-300 ease-in-out"
           >
-            Patient Rights &amp; Notice of Privacy Practices
+            Patient Rights
+          </Link>
+          {' | '}
+          <Link
+            href="/privacy-notice"
+            className="hover:text-nid-gold-200 underline transition duration-300 ease-in-out"
+          >
+            Notice of Privacy Practices
           </Link>
         </p>
       </div>
