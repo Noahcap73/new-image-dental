@@ -5,6 +5,7 @@ import { CgSpinner } from 'react-icons/cg'
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', companyName: '', email: '', phone: '', message: '' })
   const [status, setStatus] = useState('')
+  const [checked, setChecked] = useState(false)
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
@@ -85,12 +86,32 @@ export default function ContactForm() {
               minLength={10}
               required
             />
+            <div className="flex items-center gap-2 sm:w-[20rem] lg:w-[28rem]">
+              <input
+                type="checkbox"
+                id="terms-checkbox"
+                checked={checked}
+                onChange={(e) => setChecked(e.target.checked)}
+                className="text-nid-gold-200 focus:ring-nid-gold-200 h-4 w-4 rounded border-gray-300"
+                required
+              />
+              <label htmlFor="terms-checkbox" className="text-sm text-gray-600">
+                I agree to the terms and conditions.
+              </label>
+            </div>
             <button
+              disabled={!checked}
               type="submit"
-              className="bg-nid-gold-200 hover:bg-nid-blue hover:shadow-nid-dark rounded-xl px-10 py-2 font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-2"
+              className="bg-nid-gold-200 hover:bg-nid-blue hover:shadow-nid-dark disabled:hover:bg-nid-gold-200 rounded-xl px-10 py-2 font-semibold text-white transition duration-300 ease-in-out hover:-translate-y-2 disabled:cursor-not-allowed disabled:opacity-50 disabled:hover:translate-y-0"
             >
               Send
             </button>
+            <p className="px-4 text-[0.50rem] text-gray-500 lg:text-xs">
+              By submitting this form and signing up for texts, you consent to receive: messages,
+              conversations, customer care, appointment reminders, etc from New Image Dental at the
+              number provided. Consent is not a condition of purchase. Msg & data rates may apply.
+              Reply STOP to prevent further messages.
+            </p>
 
             {status && (
               <div
