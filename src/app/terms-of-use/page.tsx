@@ -15,11 +15,12 @@ export default function TermsOfUsePage() {
       <p className="mb-4 text-sm text-gray-500">Effective Date: July 14, 2025</p>
 
       <p className="mb-4 text-gray-600">
-        These Terms of Use (“Terms”) describe the terms and conditions on which Advanced Dental
-        Concepts (the “Practice,” “we,” “our,” or “us”) provides access to, and governs the use of,
-        this website, located at uniform resource locator advanceddentalconcept.com (the “Site") and
-        its associated services including, without limitation, scheduling new patient or returning
-        patient appointments.
+        These Terms of Use (&quot;Terms&quot;) describe the terms and conditions on which Advanced
+        Dental Concepts (the &quot;Practice,&quot; &quot;we,&quot; &quot;our,&quot; or
+        &quot;us&quot;) provides access to, and governs the use of, this website, located at uniform
+        resource locator advanceddentalconcept.com (the &quot;Site&quot;) and its associated
+        services including, without limitation, scheduling new patient or returning patient
+        appointments.
       </p>
 
       <p className="mb-4 text-gray-600">
@@ -85,15 +86,15 @@ export default function TermsOfUsePage() {
           bureau arrangement; (iii) copy, reproduce, adapt, create derivative works of, translate,
           localize, port or otherwise modify the Site, in whole or in part, in any form or manner,
           or by any means; (iv) harvest or scrape any content or data from the Site; (v) remove or
-          alter any copyright or other proprietary rights’ notice or restrictive rights legend
+          alter any copyright or other proprietary rights&apos; notice or restrictive rights legend
           contained or included in the Site; (vi) decompile, disassemble, reverse compile, reverse
           assemble, reverse translate or otherwise reverse engineer any part of the Site in whole or
           in part; (vii) use any means to discover the source code of any portion of the Site; or
           (viii) otherwise circumvent any functionality that controls access to or otherwise
           protects the Site; or (ix) permit any third party to engage in any of the acts described
           in clauses (i) through (viii). Any attempt to do any of the foregoing is a violation of
-          the Practice’s and our licensors’ rights. If you breach these restrictions, you may be
-          subject to prosecution and damages.
+          the Practice&apos;s and our licensors&apos; rights. If you breach these restrictions, you
+          may be subject to prosecution and damages.
         </p>
         <p>
           C. The Practice and our licensors reserve the right to change, suspend, remove, or disable
@@ -103,30 +104,30 @@ export default function TermsOfUsePage() {
           in any case without notice or liability.
         </p>
         <p>
-          D. The Site and its content, including its “look and feel” (e.g., text, graphics, images,
-          logos) proprietary content (e.g., scheduling availability), information and other
-          materials, are protected under intellectual property, copyright, trademark, and other
-          laws. You agree that the Practice and/or our licensors own all right, title and interest
-          in and to the Site (including, without limitation, any patent, copyright, trade secret,
-          trademark, know-how and any and all other intellectual property rights in or related to
-          the Site) and you agree not to take any action(s) inconsistent with such ownership
-          interests. You do not acquire any rights or licenses under any of the Practice’s (or our
-          licensors’) patents, patent applications, copyrights, trade secrets, trademarks or other
-          intellectual property rights on account of these Terms.
+          D. The Site and its content, including its &quot;look and feel&quot; (e.g., text,
+          graphics, images, logos) proprietary content (e.g., scheduling availability), information
+          and other materials, are protected under intellectual property, copyright, trademark, and
+          other laws. You agree that the Practice and/or our licensors own all right, title and
+          interest in and to the Site (including, without limitation, any patent, copyright, trade
+          secret, trademark, know-how and any and all other intellectual property rights in or
+          related to the Site) and you agree not to take any action(s) inconsistent with such
+          ownership interests. You do not acquire any rights or licenses under any of the
+          Practice&apos;s (or our licensors&apos;) patents, patent applications, copyrights, trade
+          secrets, trademarks or other intellectual property rights on account of these Terms.
         </p>
         <p>
           E. Any and all (i) suggestions for correction, change and modification to the Site and
           other feedback (including but not limited to quotations of written or oral feedback),
-          information and reports provided to the Practice by you (collectively “Feedback”), and all
-          (ii) improvements, updates, modifications or enhancements, whether made, created or
-          developed by the Practice or otherwise relating to the Site and/or Service (collectively,
-          “Revisions”), are and will remain our property. You agree that any contribution of
-          Feedback or Revisions does not and will not give or grant you any right, title or interest
-          in the Site or in any such Feedback or Revisions. You agree to assign to the Practice any
-          and all right, title and interest (including, but not limited to, any patent, copyright,
-          trade secret, trademark, show-how, know-how, moral rights and any and all other
-          intellectual property right) that you may have in and to any and all Feedback and
-          Revisions.
+          information and reports provided to the Practice by you (collectively
+          &quot;Feedback&quot;), and all (ii) improvements, updates, modifications or enhancements,
+          whether made, created or developed by the Practice or otherwise relating to the Site
+          and/or Service (collectively, &quot;Revisions&quot;), are and will remain our property.
+          You agree that any contribution of Feedback or Revisions does not and will not give or
+          grant you any right, title or interest in the Site or in any such Feedback or Revisions.
+          You agree to assign to the Practice any and all right, title and interest (including, but
+          not limited to, any patent, copyright, trade secret, trademark, show-how, know-how, moral
+          rights and any and all other intellectual property right) that you may have in and to any
+          and all Feedback and Revisions.
         </p>
       </div>
 
@@ -148,15 +149,16 @@ export default function TermsOfUsePage() {
         <p>
           When you opt-in to the SMS service, we will send you an SMS message to confirm your
           signup. The SMS service is used to send you appointment reminders and other related
-          messages. You can cancel the SMS service at any time. Just text “STOP” to the short code.
-          After you send the SMS message “STOP” to us, you will be unsubscribed from the service.
-          After this, you will no longer receive SMS messages from us. If you want to join again,
-          just sign up as you did the first time and we will start sending messages to you again.
+          messages. You can cancel the SMS service at any time. Just text &quot;STOP&quot; to the
+          short code. After you send the SMS message &quot;STOP&quot; to us, you will be
+          unsubscribed from the service. After this, you will no longer receive SMS messages from
+          us. If you want to join again, just sign up as you did the first time and we will start
+          sending messages to you again.
         </p>
         <p>
-          If at any time you forget what keywords are supported, just text “HELP” to the short code.
-          After you send the SMS message “HELP” to us, we will respond with instructions on how to
-          use our service as well as how to unsubscribe.
+          If at any time you forget what keywords are supported, just text &quot;HELP&quot; to the
+          short code. After you send the SMS message &quot;HELP&quot; to us, we will respond with
+          instructions on how to use our service as well as how to unsubscribe.
         </p>
         <p>
           We are able to deliver messages to certain mobile phone carriers, including, without
@@ -169,7 +171,7 @@ export default function TermsOfUsePage() {
         </p>
         <p>
           The Practice does not share your information with third parties, except as permitted by
-          law. If you have any questions regarding privacy, please read the Practice’s Privacy
+          law. If you have any questions regarding privacy, please read the Practice&apos;s Privacy
           Policy here.
         </p>
       </div>
@@ -180,17 +182,17 @@ export default function TermsOfUsePage() {
         Privacy Policy. Any personal information (for example, your name, date of birth, address,
         telephone number or email address) that you transmit to the Site will be used by the
         Practice in accordance with the Privacy Policy. Specifically, when using the Site to
-        schedule an appointment, you agree that the information provided through the “Schedule Your
-        Appointment” webpage may be collected and used for the purposes set forth in the Privacy
-        Policy, including, without limitation, for analytics and advertising purposes, irrespective
-        of whether the scheduling form was only partially completed or the scheduled appointment was
-        thereafter canceled.
+        schedule an appointment, you agree that the information provided through the &quot;Schedule
+        Your Appointment&quot; webpage may be collected and used for the purposes set forth in the
+        Privacy Policy, including, without limitation, for analytics and advertising purposes,
+        irrespective of whether the scheduling form was only partially completed or the scheduled
+        appointment was thereafter canceled.
       </p>
       <p className="mb-4 text-gray-600">
         Note that our Privacy Policy does not describe how we treat your protected health
-        information (“PHI”) under the Health Insurance Portability and Accountability Act of 1996
-        and its implementing regulations, as amended (“HIPAA”). If you have any questions about how
-        we treat your PHI, please review the Notice of Privacy Practices.
+        information (&quot;PHI&quot;) under the Health Insurance Portability and Accountability Act
+        of 1996 and its implementing regulations, as amended (&quot;HIPAA&quot;). If you have any
+        questions about how we treat your PHI, please review the Notice of Privacy Practices.
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Reservation of Rights</h2>
@@ -200,21 +202,22 @@ export default function TermsOfUsePage() {
         suspension or discontinuance of any feature or component of the Site. In addition, we
         reserve the right, at any time and for any reason, with or without notice, and without
         liability to you or any other user, to: (a) restrict, limit, suspend or terminate your
-        and/or any other user’s access to the Site; (b) monitor any user’s use of the Site to verify
-        compliance with these Terms and/or any applicable law; (c) investigate any suspected or
-        alleged misuse of the Site and cooperate with law enforcement and/or third parties in such
-        investigation; and (d) disclose information about any user’s use of the Site in connection
-        with law enforcement investigation of alleged illegal activity, or in response to a lawful
-        court order or subpoena.
+        and/or any other user&apos;s access to the Site; (b) monitor any user&apos;s use of the Site
+        to verify compliance with these Terms and/or any applicable law; (c) investigate any
+        suspected or alleged misuse of the Site and cooperate with law enforcement and/or third
+        parties in such investigation; and (d) disclose information about any user&apos;s use of the
+        Site in connection with law enforcement investigation of alleged illegal activity, or in
+        response to a lawful court order or subpoena.
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Disclaimer – Warranty</h2>
       <div className="mb-4 space-y-4 font-bold text-gray-600 uppercase">
         <p>
-          THE SITE, ITS CONTENT, MATERIALS, SERVICES AND PRODUCTS ON THE SITE ARE PROVIDED "AS IS."
-          TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, THE PRACTICE HEREBY
-          DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED
-          WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+          THE SITE, ITS CONTENT, MATERIALS, SERVICES AND PRODUCTS ON THE SITE ARE PROVIDED &quot;AS
+          IS.&quot; TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO APPLICABLE LAW, THE PRACTICE
+          HEREBY DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+          IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE AND
+          NON-INFRINGEMENT.
         </p>
       </div>
       <p className="mb-4 text-gray-600">
@@ -231,9 +234,9 @@ export default function TermsOfUsePage() {
       <p className="mb-4 text-gray-600">
         You agree to indemnify, defend, and hold harmless the Practice, its officers, directors,
         employees, agents, licensors and suppliers from and against all losses, expenses, damages
-        and costs, including reasonable attorneys' fees, resulting from any violation of these Terms
-        or any activity related to your account (including negligent or wrongful conduct) by you or
-        any other person accessing the site using your Internet account.
+        and costs, including reasonable attorneys&apos; fees, resulting from any violation of these
+        Terms or any activity related to your account (including negligent or wrongful conduct) by
+        you or any other person accessing the site using your Internet account.
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Limitations of Liability</h2>
@@ -254,9 +257,9 @@ export default function TermsOfUsePage() {
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Third-Party Links</h2>
       <p className="mb-4 text-gray-600">
-        Links from this Site to third-party websites do not imply the Practice’s endorsement of any
-        other websites’ content, product or service. Links from this website to third-party websites
-        are provided for your convenience and are intended only to enable access to these
+        Links from this Site to third-party websites do not imply the Practice&apos;s endorsement of
+        any other websites&apos; content, product or service. Links from this website to third-party
+        websites are provided for your convenience and are intended only to enable access to these
         third-party websites and for no other purpose. Please use your independent care and judgment
         when accessing these third-party websites.
       </p>
@@ -275,24 +278,24 @@ export default function TermsOfUsePage() {
         Any controversy or claim between the parties or arising out of these Terms or any use of the
         Site shall be determined by one disinterested arbitrator in binding arbitration pursuant to
         the Commercial Arbitration Rules and the Supplementary Procedures for Online Arbitration of
-        the American Arbitration Association (the “AAA”). The arbitrator shall be experienced in
-        agreements for information technology services, either as an attorney or as an information
-        technology professional. If the parties fail to appoint an arbitrator within forty-five (45)
-        days of the institution of the arbitration, the AAA shall select the arbitrator promptly
-        thereafter. Any requests for accelerated emergency or preliminary relief shall be submitted
-        pursuant to the AAA’s Optional Rules for Emergency Measures of Protection. If any such
-        requests are made before an arbitration panel is empaneled, then the AAA shall appoint one
-        disinterested arbitrator as an arbitration panel to immediately hear and decide upon such
-        request. The arbitration panel shall have the right to grant interim awards. Testimony shall
-        be permitted by telephone, video conference, and other forms of real-time
-        telecommunications. If the arbitrator requires in-person hearings, the hearings shall be
-        held in Effingham, Illinois. The arbitral award will be final and binding may be entered and
-        enforced in any court of competent jurisdiction. Notwithstanding the foregoing, you agree
-        that a breach of these Terms will cause irreparable injury to the Practice for which
-        monetary damages would not be an adequate remedy and that the Practice will be entitled to
-        seek equitable relief in any court of competent jurisdiction, in addition to any other
-        remedies available to us under these Terms, or at law without a bond, other security or
-        proof of damages.
+        the American Arbitration Association (the &quot;AAA&quot;). The arbitrator shall be
+        experienced in agreements for information technology services, either as an attorney or as
+        an information technology professional. If the parties fail to appoint an arbitrator within
+        forty-five (45) days of the institution of the arbitration, the AAA shall select the
+        arbitrator promptly thereafter. Any requests for accelerated emergency or preliminary relief
+        shall be submitted pursuant to the AAA&apos;s Optional Rules for Emergency Measures of
+        Protection. If any such requests are made before an arbitration panel is empaneled, then the
+        AAA shall appoint one disinterested arbitrator as an arbitration panel to immediately hear
+        and decide upon such request. The arbitration panel shall have the right to grant interim
+        awards. Testimony shall be permitted by telephone, video conference, and other forms of
+        real-time telecommunications. If the arbitrator requires in-person hearings, the hearings
+        shall be held in Effingham, Illinois. The arbitral award will be final and binding may be
+        entered and enforced in any court of competent jurisdiction. Notwithstanding the foregoing,
+        you agree that a breach of these Terms will cause irreparable injury to the Practice for
+        which monetary damages would not be an adequate remedy and that the Practice will be
+        entitled to seek equitable relief in any court of competent jurisdiction, in addition to any
+        other remedies available to us under these Terms, or at law without a bond, other security
+        or proof of damages.
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold uppercase">
@@ -307,7 +310,7 @@ export default function TermsOfUsePage() {
         AND THE ARBITRATOR SHALL HAVE NO AUTHORITY TO PROCEED WITH AN ARBITRATION ON A CLASS OR
         REPRESENTATIVE BASIS. THE ARBITRATOR MAY AWARD INJUNCTIVE RELIEF ONLY IN FAVOR OF THE
         INDIVIDUAL PARTY SEEKING RELIEF AND ONLY TO THE EXTENT NECESSARY TO PROVIDE RELIEF WARRANTED
-        BY THAT PARTY’S INDIVIDUAL CLAIM. IF FOR ANY REASON THE ARBITRATION CLAUSE SET FORTH IN
+        BY THAT PARTY&apos;S INDIVIDUAL CLAIM. IF FOR ANY REASON THE ARBITRATION CLAUSE SET FORTH IN
         THESE TERMS IS DEEMED INAPPLICABLE OR INVALID, OR TO THE EXTENT THE ARBITRATION CLAUSE
         ALLOWS FOR LITIGATION OF DISPUTES IN COURT, YOU AND THE PRACTICE BOTH WAIVE, TO THE FULLEST
         EXTENT ALLOWED BY LAW, ANY RIGHT TO PURSUE OR TO PARTICIPATE AS A PLAINTIFF OR AS A CLASS
@@ -331,27 +334,27 @@ export default function TermsOfUsePage() {
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Survival</h2>
       <p className="mb-4 text-gray-600">
-        The provisions of these Terms entitled “Disclaimer – Warranty,” “Indemnification,”
-        “Limitation of Liability,” Dispute Resolution,” “Waiver of Jury Trial and Class Actions,
-        “Law and Jurisdiction” and “General Provisions” will survive the termination of this
-        Agreement.
+        The provisions of these Terms entitled &quot;Disclaimer – Warranty,&quot;
+        &quot;Indemnification,&quot; &quot;Limitation of Liability,&quot; Dispute Resolution,&quot;
+        &quot;Waiver of Jury Trial and Class Actions, &quot;Law and Jurisdiction&quot; and
+        &quot;General Provisions&quot; will survive the termination of this Agreement.
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">General Provisions</h2>
       <div className="mb-4 space-y-4 text-gray-600">
         <p>
-          Except as provided in a particular “Legal Notice” on this Site, these Terms, along with
-          the Practice’s Privacy Policy, constitute the entire agreement and understanding between
-          you and the Practice with respect to use of the Site, superseding all prior or
-          contemporaneous communications with the Practice. These Terms are severable, and in the
-          event any provision is determined to be invalid or unenforceable, such invalidity or
-          unenforceability shall not in any way affect the validity or enforceability of the
-          remaining provisions. A printed version of these Terms shall be admissible in judicial or
-          administrative proceedings based upon or relating to use of the Site to the same extent
-          and subject to the same conditions as other business documents and records originally
-          generated and maintained in printed form. The section titles of this Agreement are
-          displayed for convenience only and have no legal effect. Nothing in this Agreement shall
-          be deemed to confer any third-party rights or benefit.
+          Except as provided in a particular &quot;Legal Notice&quot; on this Site, these Terms,
+          along with the Practice&apos;s Privacy Policy, constitute the entire agreement and
+          understanding between you and the Practice with respect to use of the Site, superseding
+          all prior or contemporaneous communications with the Practice. These Terms are severable,
+          and in the event any provision is determined to be invalid or unenforceable, such
+          invalidity or unenforceability shall not in any way affect the validity or enforceability
+          of the remaining provisions. A printed version of these Terms shall be admissible in
+          judicial or administrative proceedings based upon or relating to use of the Site to the
+          same extent and subject to the same conditions as other business documents and records
+          originally generated and maintained in printed form. The section titles of this Agreement
+          are displayed for convenience only and have no legal effect. Nothing in this Agreement
+          shall be deemed to confer any third-party rights or benefit.
         </p>
       </div>
 
