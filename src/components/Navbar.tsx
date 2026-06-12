@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="text-nid-blue relative">
       {/* Desktop Nav */}
-      <div className="text-md hidden items-center gap-6 md:flex lg:text-xl">
+      <div className="text-md hidden items-center gap-6 md:flex lg:text-lg">
         <Link
           href="/about"
           className="hover:text-nid-gold-200 font-[500] transition duration-300 ease-in-out hover:underline"

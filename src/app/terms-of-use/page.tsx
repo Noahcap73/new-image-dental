@@ -7,14 +7,14 @@ export const metadata: Metadata = {
 
 export default function TermsOfUsePage() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12">
+    <main className="mx-auto bg-[url(/media/dental-graphics.JPG)] px-3 py-12 md:px-24">
       <h1 className="text-nid-blue mb-8 text-center text-2xl font-bold lg:text-3xl">
         Terms of Use
       </h1>
 
       <p className="mb-4 text-sm text-gray-500">Effective Date: July 14, 2025</p>
 
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         These Terms of Use (&quot;Terms&quot;) describe the terms and conditions on which Advanced
         Dental Concepts (the &quot;Practice,&quot; &quot;we,&quot; &quot;our,&quot; or
         &quot;us&quot;) provides access to, and governs the use of, this website, located at uniform
@@ -23,7 +23,7 @@ export default function TermsOfUsePage() {
         appointments.
       </p>
 
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         These Terms are important, contain legal obligations and affect your legal rights, so please
         read them carefully. For the avoidance of doubt, these Terms do not apply to your receipt of
         healthcare services from the Practice.
@@ -36,7 +36,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">No Practice of Dentistry</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The information and materials on the Site are for informational and scheduling purposes only
         and are not intended to be, and must not be taken to be, the practice of dentistry or other
         healthcare services by the Practice. Use of the Site does not create a provider/patient
@@ -46,7 +46,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Eligible Users</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         If you are under the age of 18, please do not use the Site without the supervision of a
         parent or legal guardian who agrees to be bound by these Terms. By using the Site, or by
         supervising someone using the Site, you represent that you are at least 18 years old and
@@ -54,7 +54,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Permitted Use of the Site</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The information and materials on the Site are provided for general informational purposes.
         The Practice grants you a limited right to use the Site solely for the purposes of learning
         about the Practice products or services, including, without limitation, scheduling new
@@ -64,7 +64,7 @@ export default function TermsOfUsePage() {
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">
         Use Restrictions; Proprietary Rights
       </h2>
-      <div className="mb-4 space-y-4 text-gray-600">
+      <div className="mb-4 space-y-4 text-sm text-gray-600 lg:text-base">
         <p>
           A. You agree that: (i) you will only use the Site for lawful purposes; (ii) you will not
           use the Site for any fraudulent purposes or to engage in any illegal, offensive, indecent
@@ -134,7 +134,7 @@ export default function TermsOfUsePage() {
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">
         Notice; Electronic Communications
       </h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         When you visit the Site or send emails to the Practice, you are communicating with us
         electronically. You consent to receive communications from us electronically. We will
         communicate with you by email or by posting notices on the Site. You agree that all
@@ -145,7 +145,7 @@ export default function TermsOfUsePage() {
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">
         Short Code Terms of Service
       </h2>
-      <div className="mb-4 space-y-4 text-gray-600">
+      <div className="mb-4 space-y-4 text-sm text-gray-600 lg:text-base">
         <p>
           When you opt-in to the SMS service, we will send you an SMS message to confirm your
           signup. The SMS service is used to send you appointment reminders and other related
@@ -177,7 +177,7 @@ export default function TermsOfUsePage() {
       </div>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Privacy</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The Privacy Policy is incorporated and made part of these Terms. You hereby agree to such
         Privacy Policy. Any personal information (for example, your name, date of birth, address,
         telephone number or email address) that you transmit to the Site will be used by the
@@ -188,7 +188,7 @@ export default function TermsOfUsePage() {
         irrespective of whether the scheduling form was only partially completed or the scheduled
         appointment was thereafter canceled.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         Note that our Privacy Policy does not describe how we treat your protected health
         information (&quot;PHI&quot;) under the Health Insurance Portability and Accountability Act
         of 1996 and its implementing regulations, as amended (&quot;HIPAA&quot;). If you have any
@@ -196,7 +196,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Reservation of Rights</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         We may modify, suspend, or discontinue any aspect of the Site at any time without prior
         notice. You agree that we are not liable to you or any third party for any modification,
         suspension or discontinuance of any feature or component of the Site. In addition, we
@@ -220,7 +220,7 @@ export default function TermsOfUsePage() {
           NON-INFRINGEMENT.
         </p>
       </div>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The Practice does not represent or warrant that the functions contained in the Site will be
         uninterrupted or error-free, that the defects will be corrected, or that the Site or the
         server that makes the Site available are free of viruses or other harmful components. The
@@ -231,7 +231,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Indemnification</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         You agree to indemnify, defend, and hold harmless the Practice, its officers, directors,
         employees, agents, licensors and suppliers from and against all losses, expenses, damages
         and costs, including reasonable attorneys&apos; fees, resulting from any violation of these
@@ -240,7 +240,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Limitations of Liability</h2>
-      <div className="mb-4 space-y-4 text-gray-600">
+      <div className="mb-4 space-y-4 text-sm text-gray-600 lg:text-base">
         <p className="font-bold uppercase">
           YOUR USE OF THE SITE IS AT YOUR OWN RISK. NEITHER THE PRACTICE, NOR ANY OF ITS
           SUBSIDIARIES, AFFILIATES, OFFICERS OR DIRECTORS, NOR ANY OF ITS AGENTS OR ANY OTHER PARTY
@@ -256,7 +256,7 @@ export default function TermsOfUsePage() {
       </div>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Third-Party Links</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         Links from this Site to third-party websites do not imply the Practice&apos;s endorsement of
         any other websites&apos; content, product or service. Links from this website to third-party
         websites are provided for your convenience and are intended only to enable access to these
@@ -265,7 +265,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Intellectual Property</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The Site and all of its contents (including, without limitation, text, graphics, logos,
         button icons, images, audio clips, digital downloads, data compilations and software) are
         the property of the Practice or its licensors and are protected by United States and
@@ -274,7 +274,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Dispute Resolution</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         Any controversy or claim between the parties or arising out of these Terms or any use of the
         Site shall be determined by one disinterested arbitrator in binding arbitration pursuant to
         the Commercial Arbitration Rules and the Supplementary Procedures for Online Arbitration of
@@ -318,7 +318,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Law and Jurisdiction</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         These Terms and your use of the Site are governed by the laws of the State of Illinois,
         without regard to its choice of law provisions. The courts of general jurisdiction located
         within Effingham, Illinois, will have exclusive jurisdiction over any and all disputes
@@ -327,13 +327,13 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Assignment</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The Practice may assign its rights and duties under these Terms to any party at any time
         without notice to you.
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Survival</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The provisions of these Terms entitled &quot;Disclaimer – Warranty,&quot;
         &quot;Indemnification,&quot; &quot;Limitation of Liability,&quot; Dispute Resolution,&quot;
         &quot;Waiver of Jury Trial and Class Actions, &quot;Law and Jurisdiction&quot; and
@@ -341,7 +341,7 @@ export default function TermsOfUsePage() {
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">General Provisions</h2>
-      <div className="mb-4 space-y-4 text-gray-600">
+      <div className="mb-4 space-y-4 text-sm text-gray-600 lg:text-base">
         <p>
           Except as provided in a particular &quot;Legal Notice&quot; on this Site, these Terms,
           along with the Practice&apos;s Privacy Policy, constitute the entire agreement and
@@ -359,7 +359,7 @@ export default function TermsOfUsePage() {
       </div>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Changes to these Terms</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         The Practice may, at any time and without notice, modify these Terms by revising them on the
         Site. Your continued use of the Site constitutes your acceptance of any such revisions. You
         should therefore periodically visit this page to review the current Terms.
@@ -368,11 +368,11 @@ export default function TermsOfUsePage() {
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">
         Questions about these Terms
       </h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         If you have any questions about this Privacy Policy, please contact us at 702-838-3311 or
         702-762-1855, by email to Newimagedental2025@gmail.com, or by mail to:
       </p>
-      <address className="text-gray-600 not-italic">
+      <address className="text-sm text-gray-600 not-italic lg:text-base">
         3885 S Decatur Blvd #1100,
         <br />
         Las Vegas, NV 89103

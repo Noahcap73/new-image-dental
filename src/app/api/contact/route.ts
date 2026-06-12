@@ -30,7 +30,7 @@ export async function POST(req: Request) {
       )
     }
 
-    const { name, companyName, email, phone, message } = await req.json()
+    const { name, companyName, email, phone, message, optIn } = await req.json()
 
     const transporter = nodemailer.createTransport({
       service: 'Gmail',
@@ -45,7 +45,7 @@ export async function POST(req: Request) {
       from: process.env.EMAIL_USER,
       to: process.env.EMAIL_TO,
       subject: `New message from ${name}`,
-      text: `Name: ${name}\nCompany: ${companyName}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`,
+      text: `Name: ${name}\nCompany: ${companyName}\nEmail: ${email}\nPhone: ${phone}\nOpt-in for texts: ${optIn ? 'Yes' : 'No'}\n\nMessage:\n${message}`,
     })
 
     // Send confirmation email to user

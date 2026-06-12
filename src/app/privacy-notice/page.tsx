@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function PrivacyNoticePage() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-12">
+    <main className="mx-auto bg-[url(/media/dental-graphics.JPG)] px-3 py-12 md:px-24">
       <h1 className="text-nid-blue mb-2 text-center text-2xl font-bold lg:text-3xl">
         Notice of Privacy Practices
       </h1>
@@ -25,24 +25,25 @@ export default function PrivacyNoticePage() {
       </p>
 
       <h2 className="text-nid-blue mt-8 mb-2 text-xl font-semibold">Our Legal Duty</h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         We are required by applicable federal and state law to maintain the privacy of your health
         information. We are also required to give you this Notice about our privacy practices, our
         legal duties, and your rights concerning your health information. We must follow the privacy
         practices that are described in this Notice while it is in effect. This Notice takes effect
         April 14, 2003, and will remain in effect until we replace it.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         We reserve the right to change our privacy practices and the terms of this Notice at any
         time, provided such changes are permitted by applicable law.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         We reserve the right to make the changes in our privacy practices and the new terms of our
-        Notice effective for all health information that we maintain, including health information we
-        created or received before we made the changes. Before we make a significant change in our
-        privacy practices, we will change this Notice and make the new Notice available upon request.
+        Notice effective for all health information that we maintain, including health information
+        we created or received before we made the changes. Before we make a significant change in
+        our privacy practices, we will change this Notice and make the new Notice available upon
+        request.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         For more information about our privacy practices, or to request a copy of our Notice, please
         contact us using the information listed on this website.
       </p>
@@ -50,41 +51,42 @@ export default function PrivacyNoticePage() {
       <h2 className="text-nid-blue mt-8 mb-2 text-xl font-semibold">
         Uses and Disclosures of Health Information
       </h2>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         We use and disclose health information about you for treatment, payment, and healthcare
         operations. For example:
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Treatment:</strong> We may use or disclose your health information to a physician or
         other healthcare provider providing treatment to you.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Payment:</strong> We may use and disclose your health information to obtain payment
         for services we provide to you.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Healthcare Operations:</strong> We may use and disclose your health information in
         connection with our healthcare operations. Healthcare operations include quality assessment
         and improvement activities, reviewing the competence or qualifications of healthcare
         professionals, evaluating practitioner and provider performance, conducting training
         programs, accreditation, certification, licensing or credentialing activities.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Your Authorization:</strong> In addition to our use of your health information for
         treatment, payment or healthcare operations, you may give us written authorization to use
         your health information or to disclose it to anyone for any purpose. If you give us an
         authorization, you may revoke it in writing at any time. Your revocation will not affect any
-        use or disclosures permitted by your authorization while it was in effect. Unless you give us
-        a written authorization, we cannot use or disclose your health information for any reason
+        use or disclosures permitted by your authorization while it was in effect. Unless you give
+        us a written authorization, we cannot use or disclose your health information for any reason
         except those described in this Notice.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>To Your Family and Friends:</strong> We must disclose your health information to you
         as described in the Patient Rights section of this Notice. We may disclose your health
         information to a family member, friend, or other person to the extent necessary to help with
-        your healthcare or with payment for your healthcare; but only if you agree that we may do so.
+        your healthcare or with payment for your healthcare; but only if you agree that we may do
+        so.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Persons Involved In Care:</strong> We may use or disclose health information to
         notify or assist in the notification of (including identifying or locating) a family member,
         your personal representative or another person responsible for your care, of your location,
@@ -95,24 +97,25 @@ export default function PrivacyNoticePage() {
         health information that is directly relevant to the person&apos;s involvement in your
         healthcare. We will also use our professional judgment and our experience with common
         practice to make reasonable inferences of your best interest in allowing a person to pick up
-        filled prescriptions, medical supplies, x-rays, or other similar forms of health information.
+        filled prescriptions, medical supplies, x-rays, or other similar forms of health
+        information.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Marketing Health-Related Services:</strong> We will not use your health information
         for marketing communications without your written authorization.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Required by Law:</strong> We may use or disclose your health information when we are
         required to do so by law.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Abuse or Neglect:</strong> We may disclose your health information to appropriate
         authorities if we reasonably believe that you are a possible victim of abuse, neglect,
         domestic violence, or the possible victim of other crimes. We may disclose your health
         information to the extent necessary to avert a serious threat to your health or safety or
         the health or safety of others.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>National Security:</strong> We may disclose to military authorities the health
         information of Armed Forces personnel under certain circumstances. We may disclose to
         authorized federal officials health information required for lawful intelligence,
@@ -120,7 +123,7 @@ export default function PrivacyNoticePage() {
         correctional institution or law enforcement official having lawful custody of protected
         health information of an inmate or patient under certain circumstances.
       </p>
-      <p className="mb-4 text-gray-600">
+      <p className="mb-4 text-sm text-gray-600 lg:text-base">
         <strong>Appointment Reminders:</strong> We may use or disclose your health information to
         provide you with appointment reminders (such as voicemail messages, postcards, or letters).
       </p>

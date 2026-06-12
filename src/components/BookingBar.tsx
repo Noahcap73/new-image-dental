@@ -13,10 +13,12 @@ export default function BookingBar() {
             width={60}
             height={60}
           />
-          <h1 className="text-nid-blue hidden text-4xl font-bold md:block">New Image Dental</h1>
+          <h1 className="text-nid-blue hidden text-2xl font-bold md:block lg:text-3xl">
+            New Image Dental
+          </h1>
         </div>
         <div className="w-auto">
-          <h3 className="text-nid-blue mb-6 text-center text-xl font-bold md:text-left">
+          <h3 className="text-nid-blue mb-6 text-center text-lg font-bold md:text-left lg:text-xl">
             Schedule an Appointment With Us Today!
           </h3>
           <div className="flex justify-center">

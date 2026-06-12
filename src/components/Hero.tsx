@@ -7,7 +7,7 @@ interface heroProps {
 export default function Hero({ title }: heroProps) {
   return (
     <section
-      className="bg-nid-blue relative mb-6 overflow-hidden px-6 py-16 text-center text-white"
+      className="bg-nid-blue relative overflow-hidden px-6 py-16 text-center text-white"
       data-aos="fade-down"
     >
       {/* Background logo */}
@@ -21,8 +21,8 @@ export default function Hero({ title }: heroProps) {
 
       {/* Hero content */}
       <div className="relative z-10">
-        <h1 className="mb-4 text-4xl font-bold md:text-5xl">{title}</h1>
-        <p className="mx-auto max-w-2xl text-lg md:text-xl lg:text-2xl">
+        <h1 className="mb-4 text-3xl font-bold md:text-4xl lg:text-5xl">{title}</h1>
+        <p className="mx-auto max-w-2xl text-base md:text-lg lg:text-xl">
           Rooted in <span className="text-nid-gold-200">Care</span>, Smiles You Can{' '}
           <span className="text-nid-gold-200">Share</span>
         </p>

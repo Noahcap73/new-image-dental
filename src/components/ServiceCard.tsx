@@ -11,7 +11,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
   const modalId = `${service.replace(/\s+/g, '_').toLowerCase()}_modal`
   return (
     <>
-      <div className="group hover:shadow-nid-blue/50 my-10 w-[18rem] overflow-hidden rounded-xl bg-white shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 sm:w-[22rem]">
+      <div className="group hover:shadow-nid-blue/50 my-10 w-[18rem] overflow-hidden rounded-xl bg-white shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 sm:w-[20rem] lg:w-[18rem] xl:w-[20rem]">
         {/* Image Section */}
         <div className="h-48 w-full overflow-hidden">
           <Image
@@ -25,8 +25,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
 
         {/* Text Section */}
         <div className="p-4">
-          <h3 className="text-nid-blue text-xl font-semibold xl:text-2xl">{service}</h3>
-          {info && <p className="mt-2 text-gray-600 xl:text-lg">{info}</p>}
+          <h3 className="text-nid-blue text-lg font-semibold lg:text-xl">{service}</h3>
+          {info && <p className="mt-2 text-sm text-gray-600 lg:text-base">{info}</p>}
         </div>
 
         <div className="px-4 pb-4 transition duration-300 ease-in-out group-hover:translate-y-0 lg:translate-y-30">
@@ -49,13 +49,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
         <label htmlFor={modalId} className="modal-backdrop absolute inset-0 cursor-pointer"></label>
 
         {/* Modal box with content */}
-        <div className="relative z-20 w-[20rem] rounded-2xl bg-white p-8 md:w-[30rem] lg:w-[40rem]">
-          <h3 className="text-nid-blue w-[7rem] text-lg font-bold md:w-auto md:text-2xl">
+        <div className="relative z-20 w-[20rem] rounded-2xl bg-white p-8 md:w-[28rem] lg:w-[32rem]">
+          <h3 className="text-nid-blue w-[7rem] text-lg font-bold md:w-auto md:text-xl">
             {service}
           </h3>
           <ul className="list-disc py-4 pl-6 text-gray-600">
             {details.map((item, i) => (
-              <li className="pb-5 text-sm md:text-lg" key={i}>
+              <li className="pb-5 text-sm md:text-base" key={i}>
                 {item}
               </li>
             ))}

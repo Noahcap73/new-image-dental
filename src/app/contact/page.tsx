@@ -11,8 +11,8 @@ export default function Contact() {
       </section>
 
       <div className="bg-[url(/media/dental-graphics.JPG)]">
-        <div>
-          <h2 className="text-nid-blue mb-6 flex justify-center px-6 text-lg font-bold lg:px-0 xl:text-2xl">
+        <div className="pt-6">
+          <h2 className="text-nid-blue mb-6 flex justify-center px-6 text-lg font-bold lg:px-0 xl:text-xl">
             For business or personal inquiries, please fill out the form below
           </h2>
         </div>

@@ -10,10 +10,9 @@ export default function About() {
         <Hero title="Meet the Dentists Behind New Image Dental" />
       </section>
 
-      {/* Practice Story */}
       <section className="mx-auto max-w-4xl px-6 py-10 text-center">
-        <h2 className="text-nid-blue mb-6 text-3xl font-bold xl:text-4xl">Our Story</h2>
-        <p className="text-lg leading-relaxed text-gray-600 xl:text-2xl">
+        <h2 className="text-nid-blue mb-6 text-2xl font-bold lg:text-3xl">Our Story</h2>
+        <p className="text-base leading-relaxed text-gray-600 lg:text-lg">
           At New Image Dental, we’re proud to serve our Las Vegas community with exceptional dental
           care. Our mission is simple: to create a welcoming environment where patients of all ages
           feel comfortable, cared for, and confident in their smiles.
@@ -25,9 +24,9 @@ export default function About() {
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 md:grid-cols-2">
           <div className="shadow-nid-blue/50 flex flex-col items-center rounded-2xl border-2 border-gray-300 bg-white p-8 text-center transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
             <Image src="/media/Dr-Samiano.png" alt="" width={450} height={450} />
-            <h3 className="mt-1 mb-2 text-2xl font-semibold 2xl:text-4xl">Dr. Bea Samiano, DMD</h3>
-            <div className="2xl:text-xl">
-              <p className="text-nid-blue mb-4 font-medium 2xl:text-2xl">General Dentist</p>
+            <h3 className="mt-1 mb-2 text-xl font-semibold lg:text-2xl">Dr. Bea Samiano, DMD</h3>
+            <div className="lg:text-base">
+              <p className="text-nid-blue mb-4 text-lg font-medium lg:text-xl">General Dentist</p>
               <p className="mb-3 leading-relaxed text-gray-600">
                 Born and raised in the Philippines, Dr. Bea moved to the United States at the age of
                 19 to pursue her passion for healthcare. She earned her Bachelor of Science in
@@ -52,9 +51,9 @@ export default function About() {
 
           <div className="shadow-nid-blue/50 flex flex-col items-center rounded-2xl border-2 border-gray-300 bg-white object-cover p-8 text-center transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
             <Image src="/media/Dr-Matt.png" alt="" width={450} height={450} />
-            <h3 className="mb-2 text-2xl font-semibold 2xl:text-4xl">Dr. Matthew Marrujo, DMD</h3>
-            <p className="text-nid-blue mb-4 font-medium 2xl:text-2xl">General Dentist</p>
-            <div className="2xl:text-xl">
+            <h3 className="mb-2 text-xl font-semibold lg:text-2xl">Dr. Matthew Marrujo, DMD</h3>
+            <p className="text-nid-blue mb-4 text-lg font-medium lg:text-xl">General Dentist</p>
+            <div className="lg:text-base">
               <p className="mb-3 leading-relaxed text-gray-600">
                 Dr. Matthew Marrujo is a dedicated general dentist who is was born and raised in the
                 Las Vegas area. Dr. Marrujo has deep roots in the community he serves. He graduated
@@ -81,8 +80,8 @@ export default function About() {
 
       {/* Shared Philosophy */}
       <section className="mx-auto max-w-4xl px-6 py-16 text-center">
-        <h2 className="text-nid-blue mb-6 text-3xl font-bold 2xl:text-4xl">Our Philosophy</h2>
-        <p className="text-lg leading-relaxed text-gray-600 xl:text-xl">
+        <h2 className="text-nid-blue mb-6 text-2xl font-bold lg:text-3xl">Our Philosophy</h2>
+        <p className="text-base leading-relaxed text-gray-600 lg:text-lg">
           Together, we are committed to delivering modern, personalized dental care in a
           family-friendly environment. At New Image Dental, every smile matters and we can’t wait to
           help you care for yours.
@@ -91,12 +90,12 @@ export default function About() {
 
       {/* Call to Action */}
       <section className="bg-nid-blue px-6 py-16 text-center text-white">
-        <h2 className="mb-4 text-3xl font-bold 2xl:text-4xl">Join the New Image Dental Family</h2>
-        <p className="mb-8 text-lg xl:text-xl">
+        <h2 className="mb-4 text-2xl font-bold lg:text-3xl">Join the New Image Dental Family</h2>
+        <p className="mb-8 text-base lg:text-lg">
           Ready to schedule your first visit? We look forward to welcoming you.
         </p>
         <Link href="/booking">
-          <button className="hover:shadow-nid-dark bg-nid-gold-200 hover:text-nid-blue mb-4 h-10 w-45 rounded-xl py-2 text-center text-sm font-[500] text-white transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer hover:bg-white xl:h-12 xl:text-xl 2xl:w-62">
+          <button className="hover:shadow-nid-dark bg-nid-gold-200 hover:text-nid-blue mb-4 h-10 w-45 rounded-xl py-2 text-center text-sm font-[500] text-white transition duration-300 ease-in-out hover:-translate-y-2 hover:cursor-pointer hover:bg-white lg:h-12 lg:w-56 lg:text-base">
             Book an Appointment
           </button>
         </Link>

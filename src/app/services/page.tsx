@@ -81,7 +81,7 @@ export default function Services() {
       </section>
 
       <section className="">
-        <div className="grid w-full grid-cols-1 grid-rows-1 place-items-center items-stretch gap-2 bg-[url(/media/dental-graphics.JPG)] md:grid-cols-2 md:grid-rows-2 xl:grid-cols-3 xl:grid-rows-3">
+        <div className="grid w-full grid-cols-1 grid-rows-1 place-items-center items-stretch gap-2 bg-[url(/media/dental-graphics.JPG)] md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-3">
           {services.map((s, i) => (
             <ServiceCard {...s} key={i} />
           ))}
