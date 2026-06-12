@@ -42,7 +42,7 @@ export default function ContactForm() {
             <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="name"
-                className="text-nid-blue text-[11px] font-bold tracking-wide uppercase"
+                className="text-nid-blue text-[11px] font-bold tracking-wide uppercase lg:text-xs"
               >
                 Name <span className="text-red-400">*</span>
               </label>
@@ -52,7 +52,7 @@ export default function ContactForm() {
                 placeholder="Jane Smith"
                 value={form.name}
                 onChange={(e) => setForm({ ...form, name: e.target.value })}
-                className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2"
+                className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2 lg:text-base"
                 maxLength={60}
                 required
               />
@@ -60,7 +60,7 @@ export default function ContactForm() {
             <div className="flex flex-col gap-1.5">
               <label
                 htmlFor="phone"
-                className="text-nid-blue text-[11px] font-bold tracking-wide uppercase"
+                className="text-nid-blue text-[11px] font-bold tracking-wide uppercase lg:text-xs"
               >
                 Phone <span className="text-red-400">*</span>
               </label>
@@ -70,7 +70,7 @@ export default function ContactForm() {
                 placeholder="(702) 555-0100"
                 value={form.phone}
                 onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2"
+                className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2 lg:text-base"
                 minLength={10}
                 required
               />
@@ -81,7 +81,7 @@ export default function ContactForm() {
           <div className="flex flex-col gap-1.5">
             <label
               htmlFor="email"
-              className="text-nid-blue text-[11px] font-bold tracking-wide uppercase"
+              className="text-nid-blue text-[11px] font-bold tracking-wide uppercase lg:text-xs"
             >
               Email <span className="text-red-400">*</span>
             </label>
@@ -92,7 +92,7 @@ export default function ContactForm() {
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-              className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2"
+              className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2 lg:text-base"
               maxLength={70}
               minLength={5}
               required
@@ -103,7 +103,7 @@ export default function ContactForm() {
           <div className="flex flex-col gap-1.5">
             <label
               htmlFor="company"
-              className="text-nid-blue text-[11px] font-bold tracking-wide uppercase"
+              className="text-nid-blue text-[11px] font-bold tracking-wide uppercase lg:text-xs"
             >
               Company
             </label>
@@ -113,7 +113,7 @@ export default function ContactForm() {
               placeholder="Optional"
               value={form.companyName}
               onChange={(e) => setForm({ ...form, companyName: e.target.value })}
-              className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2"
+              className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 rounded-lg border px-3 py-2 text-sm transition outline-none focus:ring-2 lg:text-base"
               maxLength={60}
             />
           </div>
@@ -122,7 +122,7 @@ export default function ContactForm() {
           <div className="flex flex-col gap-1.5">
             <label
               htmlFor="message"
-              className="text-nid-blue text-[11px] font-bold tracking-wide uppercase"
+              className="text-nid-blue text-[11px] font-bold tracking-wide uppercase lg:text-xs"
             >
               Message <span className="text-red-400">*</span>
             </label>
@@ -131,7 +131,7 @@ export default function ContactForm() {
               placeholder="How can we help you?"
               value={form.message}
               onChange={(e) => setForm({ ...form, message: e.target.value })}
-              className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 min-h-[100px] resize-y rounded-lg border px-3 py-2 text-sm leading-relaxed transition outline-none focus:ring-2"
+              className="border-nid-blue/20 text-nid-blue placeholder-nid-blue/30 focus:border-nid-gold-200 focus:ring-nid-gold-200/20 min-h-[100px] resize-y rounded-lg border px-3 py-2 text-sm leading-relaxed transition outline-none focus:ring-2 lg:text-base"
               maxLength={1500}
               minLength={10}
               required
@@ -151,7 +151,10 @@ export default function ContactForm() {
                 onChange={(e) => setOpted(e.target.checked)}
                 className="text-nid-gold-200 focus:ring-nid-gold-200 mt-0.5 h-4 w-4 shrink-0 rounded border-gray-300"
               />
-              <label htmlFor="opt-checkbox" className="text-xs leading-snug text-gray-500">
+              <label
+                htmlFor="opt-checkbox"
+                className="text-xs leading-snug text-gray-500 lg:text-sm"
+              >
                 Text me appointment reminders and helpful updates. Msg &amp; data rates may apply.
                 Text STOP to opt out.
               </label>
@@ -165,7 +168,10 @@ export default function ContactForm() {
                 className="text-nid-gold-200 focus:ring-nid-gold-200 mt-0.5 h-4 w-4 shrink-0 rounded border-gray-300"
                 required
               />
-              <label htmlFor="terms-checkbox" className="text-xs leading-snug text-gray-500">
+              <label
+                htmlFor="terms-checkbox"
+                className="text-xs leading-snug text-gray-500 lg:text-sm"
+              >
                 I agree to the{' '}
                 <a href="/terms-of-use" className="text-nid-blue underline underline-offset-2">
                   terms and conditions
@@ -176,7 +182,7 @@ export default function ContactForm() {
           </div>
 
           {/* Disclaimer */}
-          <p className="text-center text-[11px] leading-relaxed text-gray-400">
+          <p className="text-center text-[11px] leading-relaxed text-gray-400 lg:text-xs">
             By submitting this form you consent to receive messages, customer care, and appointment
             reminders from New Image Dental at the number provided. Consent is not a condition of
             purchase. Msg &amp; data rates may apply. Reply STOP to opt out.
@@ -186,7 +192,7 @@ export default function ContactForm() {
           <button
             disabled={!checked}
             type="submit"
-            className="bg-nid-gold-200 hover:bg-nid-blue disabled:hover:bg-nid-gold-200 w-full rounded-lg py-2.5 text-sm font-medium text-white transition duration-200 disabled:cursor-not-allowed disabled:opacity-50"
+            className="bg-nid-gold-200 hover:bg-nid-blue disabled:hover:bg-nid-gold-200 w-full rounded-lg py-2.5 text-sm font-medium text-white transition duration-200 disabled:cursor-not-allowed disabled:opacity-50 lg:text-base"
           >
             Send message
           </button>
