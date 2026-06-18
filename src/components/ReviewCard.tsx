@@ -6,9 +6,10 @@ interface ReviewCardProps {
   rating: number
   review: string
   date: string
+  platform: string
 }
 
-const ReviewCard: React.FC<ReviewCardProps> = ({ name, rating, review, date }) => {
+const ReviewCard: React.FC<ReviewCardProps> = ({ name, rating, review, platform, date }) => {
   return (
     <div data-aos="fade-right">
       <div className="hover:shadow-nid-blue/50 group h-[19rem] rounded-2xl border border-gray-200 bg-gray-50 p-6 shadow-lg transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg md:h-[25rem] lg:h-[18rem]">
@@ -29,7 +30,9 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ name, rating, review, date }) =
         <p className="mt-3 text-gray-600 lg:text-lg">{review}</p>
 
         {/* Footer */}
-        <p className="mt-3 text-sm text-gray-400">Reviewed on Google · {date}</p>
+        <p className="mt-3 text-sm text-gray-400">
+          Reviewed on {platform} · {date}
+        </p>
       </div>
     </div>
   )

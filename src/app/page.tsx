@@ -27,6 +27,7 @@ export default function Home() {
         'Dr. Samiano is an exceptional dentist!\n' +
         '\n' +
         'I had an amazing experience with Dr. Samiano and her team. From the moment I walked into the office, I felt welcomed and at ease ...',
+      platform: 'google',
       date: 'Jul 2025',
     },
     {
@@ -34,6 +35,7 @@ export default function Home() {
       rating: 5,
       review:
         'Staff is very helpful and nice the doctor takes in what u say and is very helpful as well :)',
+      platform: 'google',
       date: 'Aug 2025',
     },
     {
@@ -41,13 +43,31 @@ export default function Home() {
       rating: 5,
       review:
         'Dr Samiano was very professional and the staff is very friendly. Carolina was very attentive. I strongly recommend this clinic.',
+      platform: 'google',
       date: 'Aug 2025',
     },
     {
       name: 'Sasha G',
       rating: 5,
       review: 'Great people here been coming her for years happy We have New Owners VERY EXCITED!!',
+      platform: 'google',
       date: 'Sept 2025',
+    },
+    {
+      name: 'Shareena B.',
+      rating: 5,
+      review:
+        'I had a wonderful experience friendly staff and Dr. Samiano is very knowledgeable and educated ...',
+      platform: 'yelp',
+      date: 'Jan 2026',
+    },
+    {
+      name: 'DeMarlo V.',
+      rating: 5,
+      review:
+        'Today I brought my daughters to New Image Dental and really enjoyed the experience. Dr. Samiano was very professional ...',
+      platform: 'google',
+      date: 'Jan 2026',
     },
   ]
 
