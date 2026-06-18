@@ -15,12 +15,11 @@ export default function TermsOfUsePage() {
       <p className="mb-4 text-sm text-gray-500">Effective Date: July 14, 2025</p>
 
       <p className="mb-4 text-sm text-gray-600 lg:text-base">
-        These Terms of Use (&quot;Terms&quot;) describe the terms and conditions on which Advanced
-        Dental Concepts (the &quot;Practice,&quot; &quot;we,&quot; &quot;our,&quot; or
-        &quot;us&quot;) provides access to, and governs the use of, this website, located at uniform
-        resource locator advanceddentalconcept.com (the &quot;Site&quot;) and its associated
-        services including, without limitation, scheduling new patient or returning patient
-        appointments.
+        These Terms of Use (&quot;Terms&quot;) describe the terms and conditions on which New Image
+        Dental (the &quot;Practice,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;)
+        provides access to, and governs the use of, this website, located at uniform resource
+        locator newimagedentalnv.com (the &quot;Site&quot;) and its associated services including,
+        without limitation, scheduling new patient or returning patient appointments.
       </p>
 
       <p className="mb-4 text-sm text-gray-600 lg:text-base">
