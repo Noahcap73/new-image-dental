@@ -17,6 +17,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import ReviewCard from '@/components/ReviewCard'
 import AboutButton from '@/components/UI/AboutButton'
 import { FaGreaterThan, FaLessThan } from 'react-icons/fa'
+import { IoLocationOutline } from 'react-icons/io5'
 
 export default function Home() {
   const reviews = [
@@ -265,6 +266,39 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* NEW LOCATION SECTION */}
+      <section className="border-y border-gray-100 bg-[url(/media/dental-graphics.JPG)] px-10 py-16">
+        <div className="mx-auto max-w-4xl text-center" data-aos="fade-up">
+          <h2 className="text-nid-blue mb-4 text-3xl font-bold lg:text-4xl">
+            Exciting News: New Image Dental Jones Location Opening Soon!
+          </h2>
+          <div className="bg-nid-gold-200 mx-auto mb-6 h-1 w-24"></div>
+          <p className="text-lg leading-relaxed text-gray-700 lg:text-xl">
+            We are growing to better serve you! Stay tuned for the grand opening of our second
+            office location. We can&#39;t wait to bring our signature care and smiles to another
+            part of the community.
+          </p>
+
+          <p className="mt-4 text-lg leading-relaxed text-gray-700 lg:text-xl">
+            Jones Location's Telephone Number:{' '}
+            <a href="tel:702-530-2974" className="text-nid-blue mt-2 font-semibold underline">
+              {' '}
+              702-530-2974
+            </a>
+          </p>
+
+          <p className="text-nid-blue mt-4 text-xl font-semibold">
+            <a
+              href="https://www.google.com/maps/place/2375+S+Jones+Blvd+%2312a,+Las+Vegas,+NV+89146/data=!4m2!3m1!1s0x80c8c124bc2b54e1:0x100541ae97b471ac?sa=X&ved=1t:242&ictx=111"
+              target="_blank"
+              className="underline"
+            >
+              2375 S Jones Blvd. Ste 12A. Las Vegas, NV 89146
+            </a>
+          </p>
         </div>
       </section>
 
