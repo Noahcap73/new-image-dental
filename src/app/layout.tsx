@@ -27,16 +27,20 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${lora.className} overflow-x-hidden`}>
-        <div className="sticky top-0 z-50 bg-white">
+        <a
+          href="#main"
+          className="focus:text-nid-blue sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-white focus:p-2"
+        >
+          Skip to main content
+        </a>
+        <header className="sticky top-0 z-50 bg-white">
           <Header />
-        </div>
+        </header>
 
-        <main className="min-h-screen overflow-x-clip">
+        <main id="main" className="min-h-screen overflow-x-clip">
           <AosWrapper>{children}</AosWrapper>
         </main>
-        <div className="bottom-0">
-          <Footer />
-        </div>
+        <Footer />
       </body>
     </html>
   )

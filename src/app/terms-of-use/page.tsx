@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Terms of Use | New Image Dental',
@@ -171,27 +172,38 @@ export default function TermsOfUsePage() {
         <p>
           The Practice does not share your information with third parties, except as permitted by
           law. If you have any questions regarding privacy, please read the Practice&apos;s Privacy
-          Policy here.
+          Policy{' '}
+          <Link href="/privacy-policy" className="hover:text-nid-gold-200 underline transition">
+            here
+          </Link>
+          .
         </p>
       </div>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Privacy</h2>
       <p className="mb-4 text-sm text-gray-600 lg:text-base">
-        The Privacy Policy is incorporated and made part of these Terms. You hereby agree to such
-        Privacy Policy. Any personal information (for example, your name, date of birth, address,
-        telephone number or email address) that you transmit to the Site will be used by the
-        Practice in accordance with the Privacy Policy. Specifically, when using the Site to
-        schedule an appointment, you agree that the information provided through the &quot;Schedule
-        Your Appointment&quot; webpage may be collected and used for the purposes set forth in the
-        Privacy Policy, including, without limitation, for analytics and advertising purposes,
-        irrespective of whether the scheduling form was only partially completed or the scheduled
-        appointment was thereafter canceled.
+        The{' '}
+        <Link href="/privacy-policy" className="hover:text-nid-gold-200 underline transition">
+          Privacy Policy
+        </Link>{' '}
+        is incorporated and made part of these Terms. You hereby agree to such Privacy Policy. Any
+        personal information (for example, your name, date of birth, address, telephone number or
+        email address) that you transmit to the Site will be used by the Practice in accordance with
+        the Privacy Policy. Specifically, when using the Site to schedule an appointment, you agree
+        that the information provided through the &quot;Schedule Your Appointment&quot; webpage may
+        be collected and used for the purposes set forth in the Privacy Policy, including, without
+        limitation, for analytics and advertising purposes, irrespective of whether the scheduling
+        form was only partially completed or the scheduled appointment was thereafter canceled.
       </p>
       <p className="mb-4 text-sm text-gray-600 lg:text-base">
         Note that our Privacy Policy does not describe how we treat your protected health
         information (&quot;PHI&quot;) under the Health Insurance Portability and Accountability Act
         of 1996 and its implementing regulations, as amended (&quot;HIPAA&quot;). If you have any
-        questions about how we treat your PHI, please review the Notice of Privacy Practices.
+        questions about how we treat your PHI, please review the{' '}
+        <Link href="/privacy-notice" className="hover:text-nid-gold-200 underline transition">
+          Notice of Privacy Practices
+        </Link>
+        .
       </p>
 
       <h2 className="text-nid-blue mt-10 mb-4 text-xl font-semibold">Reservation of Rights</h2>

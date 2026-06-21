@@ -13,7 +13,8 @@ export default function Hero({ title }: heroProps) {
       {/* Background logo */}
       <Image
         src="/Logo-Gold.png"
-        alt="New Image Dental Logo"
+        alt=""
+        aria-hidden="true"
         className="absolute inset-0 mx-auto my-auto opacity-20"
         width={195}
         height={195}

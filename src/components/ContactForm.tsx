@@ -5,22 +5,27 @@ import { CgSpinner } from 'react-icons/cg'
 export default function ContactForm() {
   const [form, setForm] = useState({ name: '', companyName: '', email: '', phone: '', message: '' })
   const [status, setStatus] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
   const [checked, setChecked] = useState(false)
   const [opted, setOpted] = useState(false)
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
+    setIsSubmitting(true)
     setStatus('Sending...')
 
     const res = await fetch('/api/contact/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ ...form, optIn: checked }),
+      body: JSON.stringify({ ...form, optIn: opted }),
     })
 
+    setIsSubmitting(false)
     if (res.ok) {
       setStatus('Message sent, the team will review your message shortly!')
       setForm({ name: '', companyName: '', email: '', phone: '', message: '' })
+      setChecked(false)
+      setOpted(false)
     } else {
       setStatus('Something went wrong. Please try again.')
     }
@@ -155,8 +160,17 @@ export default function ContactForm() {
                 htmlFor="opt-checkbox"
                 className="text-xs leading-snug text-gray-500 lg:text-sm"
               >
-                Text me appointment reminders and helpful updates. Msg &amp; data rates may apply.
-                Text STOP to opt out.
+                I agree to receive appointment reminders and marketing text messages from New Image
+                Dental. Message frequency varies. Msg & data rates may apply. Reply STOP to
+                unsubscribe, HELP for help. View our{' '}
+                <a href="/privacy-policy" className="text-nid-blue underline underline-offset-2">
+                  Privacy Policy
+                </a>{' '}
+                and{' '}
+                <a href="/terms-of-use" className="text-nid-blue underline underline-offset-2">
+                  Terms of Use
+                </a>
+                .
               </label>
             </div>
             <div className="flex items-start gap-2.5">
@@ -185,16 +199,24 @@ export default function ContactForm() {
           <p className="text-center text-[11px] leading-relaxed text-gray-400 lg:text-xs">
             By submitting this form you consent to receive messages, customer care, and appointment
             reminders from New Image Dental at the number provided. Consent is not a condition of
-            purchase. Msg &amp; data rates may apply. Reply STOP to opt out.
+            purchase. Msg & data rates may apply. Reply STOP to opt out, HELP for help. Messaging
+            frequency may vary.
           </p>
 
           {/* Submit */}
           <button
-            disabled={!checked}
+            disabled={!checked || isSubmitting}
             type="submit"
-            className="bg-nid-gold-200 hover:bg-nid-blue disabled:hover:bg-nid-gold-200 w-full rounded-lg py-2.5 text-sm font-medium text-white transition duration-200 disabled:cursor-not-allowed disabled:opacity-50 lg:text-base"
+            className="bg-nid-gold-200 hover:bg-nid-blue disabled:hover:bg-nid-gold-200 flex w-full items-center justify-center gap-2 rounded-lg py-2.5 text-sm font-medium text-white transition duration-200 disabled:cursor-not-allowed disabled:opacity-50 lg:text-base"
           >
-            Send message
+            {isSubmitting ? (
+              <>
+                <CgSpinner className="animate-spin text-xl" />
+                Sending...
+              </>
+            ) : (
+              'Send message'
+            )}
           </button>
 
           {/* Status toast */}
@@ -202,10 +224,12 @@ export default function ContactForm() {
             <div
               className="text-nid-blue/70 absolute inset-0 flex items-center justify-center rounded-xl bg-white"
               role="alert"
+              aria-live="polite"
             >
               <div className="flex items-center gap-2 text-sm">
                 <CgSpinner
                   className={`text-nid-blue text-lg ${status === 'Sending...' ? 'animate-spin' : 'hidden'}`}
+                  aria-hidden="true"
                 />
                 {status}
               </div>

@@ -96,15 +96,15 @@ export default function Home() {
           <div className="flex items-center">
             <Image
               src="/Logo-Gold.png"
-              alt="logo"
+              alt="New Image Dental Logo"
               width={300}
               height={300}
               priority
               className="w-12 sm:w-16 md:w-20 lg:w-24"
             />
-            <h1 className="2xs:text-3xl xs:text-5xl font-bold text-white text-shadow-lg md:text-5xl lg:text-7xl">
+            <p className="2xs:text-3xl xs:text-5xl font-bold text-white text-shadow-lg md:text-5xl lg:text-7xl">
               New Image Dental
-            </h1>
+            </p>
           </div>
           <div>
             <h1 className="mb-6 w-52 text-xl leading-snug font-[600] text-white text-shadow-md md:w-full md:text-2xl lg:text-3xl">
@@ -284,10 +284,22 @@ export default function Home() {
             What Some of Our Customers Have to Say
           </h2>
         </div>
-        <div className="embla overflow-hidden" ref={emblaRef}>
+        <div
+          className="embla overflow-hidden"
+          ref={emblaRef}
+          role="region"
+          aria-roledescription="carousel"
+          aria-label="Customer Reviews"
+        >
           <div className="embla__container flex">
             {reviews.map((r, i) => (
-              <div className="embla__slide flex-[0_0_100%] px-4 py-8 md:flex-[0_0_33.333%]" key={i}>
+              <div
+                className="embla__slide flex-[0_0_100%] px-4 py-8 md:flex-[0_0_33.333%]"
+                key={i}
+                role="group"
+                aria-roledescription="slide"
+                aria-label={`${i + 1} of ${reviews.length}`}
+              >
                 <ReviewCard {...r} />
               </div>
             ))}
@@ -296,15 +308,23 @@ export default function Home() {
           <div className="flex justify-center gap-32 pb-1">
             <button
               onClick={scrollPrev}
+              aria-label="Previous review"
               className="group rounded-full border border-black/40 p-2 transition-all ease-in-out hover:scale-110"
             >
-              <FaLessThan className="text-nid-blue group-hover:text-nid-gold-200 text-xl transition" />
+              <FaLessThan
+                className="text-nid-blue group-hover:text-nid-gold-200 text-xl transition"
+                aria-hidden="true"
+              />
             </button>
             <button
               onClick={scrollNext}
+              aria-label="Next review"
               className="group rounded-full border border-black/40 p-2 transition-all ease-in-out hover:scale-110"
             >
-              <FaGreaterThan className="text-nid-blue group-hover:text-nid-gold-200 text-xl transition" />
+              <FaGreaterThan
+                className="text-nid-blue group-hover:text-nid-gold-200 text-xl transition"
+                aria-hidden="true"
+              />
             </button>
           </div>
         </div>
@@ -344,7 +364,7 @@ export default function Home() {
           >
             <Image
               src="/media/FamilyPicture.avif"
-              alt="family picture"
+              alt="Dr. Bea Samiano and Dr. Matt Marrujo with their family"
               width={600}
               height={600}
               className="rounded-3xl object-center"
@@ -353,12 +373,12 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="w-full bg-white px-8 py-5 xl:px-20">
+      <div className="w-full bg-[url(/media/dental-graphics.JPG)] px-8 py-5 xl:px-20">
         <div className="mb-8 flex flex-col items-center justify-start md:flex-row">
           <div className="">
             <Image
               src="/media/Dr-Samiano.png"
-              alt=""
+              alt="Dr. Bea Samiano"
               width={300}
               height={300}
               className="w-[26rem] lg:w-[30rem]"
@@ -394,7 +414,7 @@ export default function Home() {
           </div>
           <Image
             src="/media/Dr-Matt.png"
-            alt=""
+            alt="Dr. Matt Marrujo"
             width={300}
             height={300}
             className="w-[26rem] lg:w-[30rem]"

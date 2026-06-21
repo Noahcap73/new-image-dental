@@ -27,7 +27,7 @@ export default function PatientRightsPage() {
         <strong>Disclosure Accounting:</strong> You have the right to receive a list of instances in
         which we or our business associates disclosed your health information for purposes, other
         than treatment, payment, healthcare operations, and certain other activities, but not before
-        April 14, 2003. If you request this accounting more than once in a 12-month period, we may
+        July 14, 2025. If you request this accounting more than once in a 12-month period, we may
         charge you a reasonable, cost-based fee for responding to these additional requests.
       </p>
 

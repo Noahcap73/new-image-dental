@@ -19,7 +19,11 @@ const StarRating: React.FC<StarRatingProps> = ({ rating, max = 5, size = '1.25re
     }
   }
 
-  return <div className="flex">{stars}</div>
+  return (
+    <div className="flex" aria-label={`Rated ${rating} out of ${max} stars`}>
+      {stars}
+    </div>
+  )
 }
 
 export default StarRating

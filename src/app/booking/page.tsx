@@ -20,7 +20,7 @@ export default function Booking() {
           <div className="relative h-[15rem] w-[10rem] lg:h-[26rem] lg:w-[19rem]">
             <Image
               src="/media/glasses-smile.jpg"
-              alt="Photo by Vinicius Wiesehofer on Unsplash"
+              alt="A person smiling with glasses"
               fill
               className="rounded-tr-3xl rounded-bl-3xl object-cover"
             />

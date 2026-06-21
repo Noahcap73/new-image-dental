@@ -1,11 +1,20 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { HiMenu, HiX } from 'react-icons/hi'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
+
+  // Close menu on Esc key
+  useEffect(() => {
+    const handleEsc = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsOpen(false)
+    }
+    window.addEventListener('keydown', handleEsc)
+    return () => window.removeEventListener('keydown', handleEsc)
+  }, [])
 
   return (
     <nav className="text-nid-blue relative">
@@ -46,9 +55,11 @@ export default function Navbar() {
 
         <button
           onClick={() => setIsOpen(true)}
+          aria-label="Open menu"
+          aria-expanded={isOpen}
           className="text-nid-blue hover:text-nid-gold-200 text-3xl transition duration-300 ease-in-out hover:cursor-pointer"
         >
-          <HiMenu />
+          <HiMenu aria-hidden="true" />
         </button>
       </div>
 
@@ -64,10 +75,14 @@ export default function Navbar() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.2 }}
               onClick={() => setIsOpen(false)}
+              aria-hidden="true"
             />
 
             {/* Slide-in Menu */}
             <motion.div
+              role="dialog"
+              aria-modal="true"
+              aria-label="Mobile menu"
               className="fixed top-0 right-0 z-50 flex h-[60vh] w-64 flex-col rounded-bl-2xl bg-white p-6 shadow-lg md:hidden"
               initial={{ x: '100%' }}
               animate={{ x: 0 }}
@@ -77,9 +92,10 @@ export default function Navbar() {
               {/* Close Button */}
               <button
                 onClick={() => setIsOpen(false)}
+                aria-label="Close menu"
                 className="text-nid-blue hover:text-nid-gold-200 mb-3 self-end text-3xl transition duration-300 ease-in-out hover:cursor-pointer"
               >
-                <HiX />
+                <HiX aria-hidden="true" />
               </button>
 
               {/* Links */}

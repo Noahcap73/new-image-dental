@@ -18,7 +18,7 @@ export default function Contact() {
         </div>
 
         {/*FORM SECTION*/}
-        <section className="flex justify-center">
+        <section className="flex justify-center pb-5">
           <ContactForm />
         </section>
       </div>

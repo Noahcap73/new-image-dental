@@ -23,7 +23,7 @@ export default function About() {
       <section className="bg-[url(/media/dental-graphics.JPG)] object-cover px-4 py-16">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 md:grid-cols-2">
           <div className="shadow-nid-blue/50 flex flex-col items-center rounded-2xl border-2 border-gray-300 bg-white p-8 text-center transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-            <Image src="/media/Dr-Samiano.png" alt="" width={450} height={450} />
+            <Image src="/media/Dr-Samiano.png" alt="Dr. Bea Samiano" width={450} height={450} />
             <h3 className="mt-1 mb-2 text-xl font-semibold lg:text-2xl">Dr. Bea Samiano, DMD</h3>
             <div className="lg:text-base">
               <p className="text-nid-blue mb-4 text-lg font-medium lg:text-xl">General Dentist</p>
@@ -50,7 +50,7 @@ export default function About() {
           </div>
 
           <div className="shadow-nid-blue/50 flex flex-col items-center rounded-2xl border-2 border-gray-300 bg-white object-cover p-8 text-center transition duration-300 ease-in-out hover:-translate-y-2 hover:shadow-lg">
-            <Image src="/media/Dr-Matt.png" alt="" width={450} height={450} />
+            <Image src="/media/Dr-Matt.png" alt="Dr. Matthew Marrujo" width={450} height={450} />
             <h3 className="mb-2 text-xl font-semibold lg:text-2xl">Dr. Matthew Marrujo, DMD</h3>
             <p className="text-nid-blue mb-4 text-lg font-medium lg:text-xl">General Dentist</p>
             <div className="lg:text-base">

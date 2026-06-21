@@ -33,7 +33,16 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
           {/* Button to open modal */}
           <label
             htmlFor={modalId}
-            className="bg-nid-gold-200 rounded-xl px-4 py-2 text-white transition ease-in-out hover:cursor-pointer hover:underline"
+            role="button"
+            tabIndex={0}
+            className="bg-nid-gold-200 inline-block rounded-xl px-4 py-2 text-white transition ease-in-out hover:cursor-pointer hover:underline"
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault()
+                const input = document.getElementById(modalId) as HTMLInputElement
+                if (input) input.checked = !input.checked
+              }
+            }}
           >
             Learn More
           </label>
@@ -63,7 +72,16 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ service, info, image, details
 
           <label
             htmlFor={modalId}
+            role="button"
+            tabIndex={0}
             className="bg-nid-gold-200 absolute top-4 right-4 cursor-pointer rounded px-4 py-2 transition-all ease-in-out hover:underline"
+            onKeyDown={(e) => {
+              if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault()
+                const input = document.getElementById(modalId) as HTMLInputElement
+                if (input) input.checked = false
+              }
+            }}
           >
             Close
           </label>

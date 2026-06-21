@@ -28,29 +28,55 @@ export default function Header() {
           {/* Phone numbers */}
           <a
             href="tel:702-838-3311"
+            aria-label="Call Office: 702-838-3311"
             className="hover:text-nid-gold-200 flex items-center gap-1 transition ease-in-out"
           >
-            <FiPhone className="text-xl" />
+            <FiPhone className="text-xl" aria-hidden="true" />
             <p className="text-xs md:text-sm lg:text-base">702-838-3311</p>
           </a>
           <a
             href="tel:702-762-1855"
+            aria-label="Call Mobile: 702-762-1855"
             className="hover:text-nid-gold-200 flex items-center gap-1 transition ease-in-out"
           >
-            <IoPhonePortraitOutline className="text-xl" />
+            <IoPhonePortraitOutline className="text-xl" aria-hidden="true" />
             <p className="text-xs md:text-sm lg:text-base">702-762-1855</p>
           </a>
 
           {/* Socials */}
           <div className="flex gap-3">
-            <a href="https://www.yelp.com/biz/new-image-dental-las-vegas" target="_blank">
-              <FaYelp className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-2xl" />
+            <a
+              href="https://www.yelp.com/biz/new-image-dental-las-vegas"
+              target="_blank"
+              aria-label="Yelp"
+              rel="noopener noreferrer"
+            >
+              <FaYelp
+                className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-2xl"
+                aria-hidden="true"
+              />
             </a>
-            <a href="https://www.instagram.com/newimagedentalnv/" target="_blank">
-              <FaInstagram className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-2xl" />
+            <a
+              href="https://www.instagram.com/newimagedentalnv/"
+              target="_blank"
+              aria-label="Instagram"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram
+                className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-2xl"
+                aria-hidden="true"
+              />
             </a>
-            <a href="https://www.facebook.com/NewImageDentalNV2025" target="_blank">
-              <FaFacebook className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-2xl" />
+            <a
+              href="https://www.facebook.com/NewImageDentalNV2025"
+              target="_blank"
+              aria-label="Facebook"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook
+                className="hover:text-nid-gold-200 text-xl transition ease-in-out lg:text-2xl"
+                aria-hidden="true"
+              />
             </a>
           </div>
         </div>

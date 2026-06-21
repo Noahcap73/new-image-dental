@@ -8,19 +8,20 @@ export default function BookingBar() {
         <div className="flex items-center px-3">
           <Image
             src="/Logo-Gold.png"
-            alt="New Image Dental Logo"
+            alt=""
+            aria-hidden="true"
             className="w-[6rem] md:max-w-[60px]"
             width={60}
             height={60}
           />
-          <h1 className="text-nid-blue hidden text-2xl font-bold md:block lg:text-3xl">
+          <p className="text-nid-blue hidden text-2xl font-bold md:block lg:text-3xl">
             New Image Dental
-          </h1>
+          </p>
         </div>
         <div className="w-auto">
-          <h3 className="text-nid-blue mb-6 text-center text-lg font-bold md:text-left lg:text-xl">
+          <h2 className="text-nid-blue mb-6 text-center text-lg font-bold md:text-left lg:text-xl">
             Schedule an Appointment With Us Today!
-          </h3>
+          </h2>
           <div className="flex justify-center">
             <BookingButton />
           </div>
