@@ -17,7 +17,6 @@ import useEmblaCarousel from 'embla-carousel-react'
 import ReviewCard from '@/components/ReviewCard'
 import AboutButton from '@/components/UI/AboutButton'
 import { FaGreaterThan, FaLessThan } from 'react-icons/fa'
-import { IoLocationOutline } from 'react-icons/io5'
 
 export default function Home() {
   const reviews = [
@@ -283,7 +282,7 @@ export default function Home() {
           </p>
 
           <p className="mt-4 text-lg leading-relaxed text-gray-700 lg:text-xl">
-            Jones Location's Telephone Number:{' '}
+            Jones Location&apos;s Telephone Number:{' '}
             <a href="tel:702-530-2974" className="text-nid-blue mt-2 font-semibold underline">
               {' '}
               702-530-2974
